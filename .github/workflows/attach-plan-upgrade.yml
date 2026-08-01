@@ -32,9 +32,9 @@ jobs:
           from pathlib import Path
           p=Path('index.html')
           s=p.read_text(encoding='utf-8')
-          for old in ['<script src="./civil-service-hub.js?v=1"></script>','<script src="./civil-service-hub.js?v=2"></script>']:
-              s=s.replace(old,'<script src="./civil-service-hub.js?v=3"></script>')
-          tags=['<script src="./plan-upgrade.js?v=2"></script>','<script src="./current-affairs.js?v=1"></script>','<script src="./study-upgrade.js?v=1"></script>','<script src="./study-sync.js?v=1"></script>','<script src="./psychology-hub.js?v=1"></script>','<script src="./psychology-paper.js?v=1"></script>','<script src="./psychology-network.js?v=1"></script>','<script src="./psychology-review.js?v=1"></script>','<script src="./daily-cockpit.js?v=1"></script>','<script src="./weekly-review.js?v=1"></script>','<script src="./stability.js?v=1"></script>','<script src="./data-manager.js?v=2"></script>','<script src="./cloud-sync.js?v=4"></script>','<script src="./civil-service-hub.js?v=3"></script>']
+          for v in ['1','2','3']:
+              s=s.replace(f'<script src="./civil-service-hub.js?v={v}"></script>','<script src="./civil-service-hub.js?v=4"></script>')
+          tags=['<script src="./plan-upgrade.js?v=2"></script>','<script src="./current-affairs.js?v=1"></script>','<script src="./study-upgrade.js?v=1"></script>','<script src="./study-sync.js?v=1"></script>','<script src="./psychology-hub.js?v=1"></script>','<script src="./psychology-paper.js?v=1"></script>','<script src="./psychology-network.js?v=1"></script>','<script src="./psychology-review.js?v=1"></script>','<script src="./daily-cockpit.js?v=1"></script>','<script src="./weekly-review.js?v=1"></script>','<script src="./stability.js?v=1"></script>','<script src="./data-manager.js?v=2"></script>','<script src="./cloud-sync.js?v=4"></script>','<script src="./civil-service-hub.js?v=4"></script>']
           for tag in tags:
               if tag not in s: s=s.replace('</body>',tag+'</body>')
           p.write_text(s,encoding='utf-8')
