@@ -1,10 +1,12 @@
-name: Attach plan upgrade
+name: Attach workbench upgrades
 on:
   push:
     branches: [main]
     paths:
       - 'plan-upgrade.js'
+      - 'current-affairs.js'
       - '.github/workflows/attach-plan-upgrade.yml'
+  workflow_dispatch:
 permissions:
   contents: write
 jobs:
@@ -12,16 +14,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Attach plan upgrade script
+      - name: Attach upgrade scripts
         run: |
           python - <<'PY'
           from pathlib import Path
           p=Path('index.html')
           s=p.read_text(encoding='utf-8')
-          tag='<script src="./plan-upgrade.js?v=2"></script>'
-          if tag not in s:
-              s=s.replace('</body>', tag+'</body>')
-              p.write_text(s, encoding='utf-8')
+          tags=['<script src="./plan-upgrade.js?v=2"></script>','<script src="./current-affairs.js?v=1"></script>']
+          for tag in tags:
+              if tag not in s:
+                  s=s.replace('</body>',tag+'</body>')
+          p.write_text(s,encoding='utf-8')
           PY
       - name: Commit attachment
         run: |
@@ -29,5 +32,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add index.html
-          git commit -m "Attach linked plan upgrade"
+          git commit -m "Attach workbench upgrade scripts"
           git push
