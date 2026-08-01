@@ -1,0 +1,11 @@
+/* 晓的工作台：顶部栏精简 v1 */
+(function(){
+const css=`
+header{height:68px!important;background:color-mix(in srgb,var(--bg) 90%,transparent)!important;backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);border-bottom:1px solid color-mix(in srgb,var(--line) 55%,transparent)!important;box-shadow:none!important;padding-right:14px!important;gap:8px!important}
+header>b{font-size:0!important;min-width:0}header>b::after{content:'工作台';font-size:16px;font-weight:800;color:var(--ink)}#cloudBtn{border:0!important;background:transparent!important;padding:7px 8px!important;font-size:0!important;color:var(--muted)!important}#cloudBtn::before{content:'☁';font-size:17px}#cloudBtn.syncok::before{content:'☁✓';font-size:14px}.xiaoHeaderEdit{width:34px;height:34px;padding:0!important;border-radius:50%!important;font-size:0!important;display:grid!important;place-items:center;background:transparent!important;border:0!important}.xiaoHeaderEdit::after{content:'•••';font-size:16px;letter-spacing:1px;color:var(--muted)}
+body[data-device="mobile"] header{height:60px!important;padding-left:62px!important}body[data-device="mobile"] header>b::after{font-size:15px}body[data-device="tablet"] header{height:70px!important;padding-left:82px!important;padding-right:22px!important}body[data-device="desktop"] header{height:76px!important;padding-left:92px!important;padding-right:32px!important;max-width:1280px;margin:auto;border-bottom-color:transparent!important;background:transparent!important}body[data-device="desktop"] header>b::after{font-size:18px}
+`;
+let s=document.createElement('style');s.id='headerCleanupStyle';s.textContent=css;document.head.appendChild(s);
+function patch(){let h=document.querySelector('header');if(!h)return;let buttons=[...h.querySelectorAll('button')],edit=buttons.find(b=>/编辑/.test(b.textContent));if(edit){edit.classList.add('xiaoHeaderEdit');edit.setAttribute('aria-label','编辑首页')}}
+patch();const old=window.render;if(typeof old==='function')window.render=function(){let r=old.apply(this,arguments);setTimeout(patch,0);return r};
+})();
