@@ -19,6 +19,7 @@ on:
       - 'civil-service-hub.js'
       - 'shenlun-upgrade.js'
       - 'civil-weekly-report.js'
+      - 'civil-dashboard.js'
       - '.github/workflows/attach-plan-upgrade.yml'
   workflow_dispatch:
 permissions:
@@ -34,13 +35,15 @@ jobs:
           from pathlib import Path
           p=Path('index.html')
           s=p.read_text(encoding='utf-8')
-          for v in ['1','2','3']:
-              s=s.replace(f'<script src="./civil-service-hub.js?v={v}"></script>','<script src="./civil-service-hub.js?v=4"></script>')
-          s=s.replace('<script src="./current-affairs.js?v=1"></script>','<script src="./current-affairs.js?v=2"></script>')
-          for v in ['1','2']:
-              s=s.replace(f'<script src="./shenlun-upgrade.js?v={v}"></script>','<script src="./shenlun-upgrade.js?v=3"></script>')
-          tags=['<script src="./plan-upgrade.js?v=2"></script>','<script src="./current-affairs.js?v=2"></script>','<script src="./study-upgrade.js?v=1"></script>','<script src="./study-sync.js?v=1"></script>','<script src="./psychology-hub.js?v=1"></script>','<script src="./psychology-paper.js?v=1"></script>','<script src="./psychology-network.js?v=1"></script>','<script src="./psychology-review.js?v=1"></script>','<script src="./daily-cockpit.js?v=1"></script>','<script src="./weekly-review.js?v=1"></script>','<script src="./stability.js?v=1"></script>','<script src="./data-manager.js?v=2"></script>','<script src="./cloud-sync.js?v=4"></script>','<script src="./civil-service-hub.js?v=4"></script>','<script src="./shenlun-upgrade.js?v=3"></script>','<script src="./civil-weekly-report.js?v=1"></script>']
-          for tag in tags:
+          replacements={
+            '<script src="./current-affairs.js?v=1"></script>':'<script src="./current-affairs.js?v=2"></script>',
+            '<script src="./shenlun-upgrade.js?v=1"></script>':'<script src="./shenlun-upgrade.js?v=3"></script>',
+            '<script src="./shenlun-upgrade.js?v=2"></script>':'<script src="./shenlun-upgrade.js?v=3"></script>'}
+          for old,new in replacements.items(): s=s.replace(old,new)
+          for v in ['1','2','3']: s=s.replace(f'<script src="./civil-service-hub.js?v={v}"></script>','<script src="./civil-service-hub.js?v=4"></script>')
+          tags=['plan-upgrade.js?v=2','current-affairs.js?v=2','study-upgrade.js?v=1','study-sync.js?v=1','psychology-hub.js?v=1','psychology-paper.js?v=1','psychology-network.js?v=1','psychology-review.js?v=1','daily-cockpit.js?v=1','weekly-review.js?v=1','stability.js?v=1','data-manager.js?v=2','cloud-sync.js?v=4','civil-service-hub.js?v=4','shenlun-upgrade.js?v=3','civil-weekly-report.js?v=1','civil-dashboard.js?v=1']
+          for src in tags:
+              tag=f'<script src="./{src}"></script>'
               if tag not in s: s=s.replace('</body>',tag+'</body>')
           p.write_text(s,encoding='utf-8')
           PY
