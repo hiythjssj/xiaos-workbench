@@ -10,6 +10,7 @@ on:
       - 'psychology-hub.js'
       - 'psychology-paper.js'
       - 'psychology-network.js'
+      - 'psychology-review.js'
       - '.github/workflows/attach-plan-upgrade.yml'
   workflow_dispatch:
 permissions:
@@ -25,7 +26,7 @@ jobs:
           from pathlib import Path
           p=Path('index.html')
           s=p.read_text(encoding='utf-8')
-          tags=['<script src="./plan-upgrade.js?v=2"></script>','<script src="./current-affairs.js?v=1"></script>','<script src="./study-upgrade.js?v=1"></script>','<script src="./study-sync.js?v=1"></script>','<script src="./psychology-hub.js?v=1"></script>','<script src="./psychology-paper.js?v=1"></script>','<script src="./psychology-network.js?v=1"></script>']
+          tags=['<script src="./plan-upgrade.js?v=2"></script>','<script src="./current-affairs.js?v=1"></script>','<script src="./study-upgrade.js?v=1"></script>','<script src="./study-sync.js?v=1"></script>','<script src="./psychology-hub.js?v=1"></script>','<script src="./psychology-paper.js?v=1"></script>','<script src="./psychology-network.js?v=1"></script>','<script src="./psychology-review.js?v=1"></script>']
           for tag in tags:
               if tag not in s:
                   s=s.replace('</body>',tag+'</body>')
