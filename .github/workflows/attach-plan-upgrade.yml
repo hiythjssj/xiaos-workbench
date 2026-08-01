@@ -7,6 +7,7 @@ on:
       - 'current-affairs.js'
       - 'study-upgrade.js'
       - 'study-sync.js'
+      - 'psychology-hub.js'
       - '.github/workflows/attach-plan-upgrade.yml'
   workflow_dispatch:
 permissions:
@@ -22,7 +23,7 @@ jobs:
           from pathlib import Path
           p=Path('index.html')
           s=p.read_text(encoding='utf-8')
-          tags=['<script src="./plan-upgrade.js?v=2"></script>','<script src="./current-affairs.js?v=1"></script>','<script src="./study-upgrade.js?v=1"></script>','<script src="./study-sync.js?v=1"></script>']
+          tags=['<script src="./plan-upgrade.js?v=2"></script>','<script src="./current-affairs.js?v=1"></script>','<script src="./study-upgrade.js?v=1"></script>','<script src="./study-sync.js?v=1"></script>','<script src="./psychology-hub.js?v=1"></script>']
           for tag in tags:
               if tag not in s:
                   s=s.replace('</body>',tag+'</body>')
