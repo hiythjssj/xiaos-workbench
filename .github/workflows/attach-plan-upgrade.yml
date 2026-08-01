@@ -45,3 +45,4 @@ jobs:
           git add index.html
           git commit -m "Attach workbench upgrade scripts"
           git push
+# production attachment trigger: cloud sync v4
