@@ -1,0 +1,27 @@
+name: Attach final interaction registry
+on:
+  push:
+    branches: [main]
+    paths: ['interaction-registry-v2.js','.github/workflows/attach-interaction-registry-v2.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  attach:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('index.html');s=p.read_text(encoding='utf-8')
+          import re
+          s=re.sub(r'<script src="\./interaction-registry-v2\.js[^>]*></script>','',s)
+          s=s.replace('</body>','<script src="./interaction-registry-v2.js?v=2"></script></body>')
+          p.write_text(s,encoding='utf-8')
+          PY
+      - run: |
+          if git diff --quiet; then exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html && git commit -m "Load interaction registry last" && git push
