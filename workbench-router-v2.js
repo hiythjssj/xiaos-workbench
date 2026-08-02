@@ -1,19 +1,8 @@
-/* 晓的工作台 V2：统一页面路由 */
-(function(){
-const VALID=['home','progress','plans','civil','teacher','psy','life'];
-function clean(){document.body.classList.remove('xiao-study-page','xiao-core-page')}
-function mark(route){document.querySelectorAll('.xiaoSideItem').forEach(b=>{let s=b.getAttribute('onclick')||'';b.classList.toggle('on',s.includes(`'${route}'`)||(route==='home'&&s.includes("'today'")))})}
-function show(route,opt={}){if(!VALID.includes(route))route='home';clean();if(route==='home'){if(typeof setTab==='function')setTab('today')}else if(route==='progress'||route==='plans'){if(typeof xiaoOpenCorePage==='function')xiaoOpenCorePage(route)}else if(['civil','teacher','psy'].includes(route)){if(typeof xiaoOpenStudyPage==='function')xiaoOpenStudyPage(route)}else if(route==='life'){if(typeof setTab==='function')setTab('more')}mark(route);if(!opt.silent){try{sessionStorage.setItem('xiaoRoute',route)}catch(e){}}if(typeof closeXiaoSideNav==='function')closeXiaoSideNav();window.scrollTo(0,0);window.dispatchEvent(new CustomEvent('xiao:route',{detail:{route}}))}
-window.WorkbenchRouter={show,home:()=>show('home'),current:()=>{try{return sessionStorage.getItem('xiaoRoute')||'home'}catch(e){return'home'}}};
-window.xiaoRoute=show;
-/* 收口旧入口 */
-window.xiaoSideGo=function(tab){show(tab==='today'?'home':tab==='life'?'life':tab)};
-window.xiaoStudyGo=function(k){show(k)};
-window.xiaoCoreHome=function(){show('home')};
-window.xiaoLeaveStudyPage=function(){show('home')};
-window.openCivilMasterPlan=function(){show('civil')};
-window.openTeacherMaster=function(){show('teacher')};
-window.openPsyMaster=function(){show('psy')};
-/* 浏览器前后台恢复时保持当前一级页面 */
-window.addEventListener('pageshow',()=>{let r=WorkbenchRouter.current();if(r!=='home')setTimeout(()=>show(r,{silent:true}),80)});
+/* 晓的工作台 V3：统一页面路由与页面状态清理 */
+(function(){if(window.__xiaoRouterV3)return;window.__xiaoRouterV3=true;const VALID=['home','progress','plans','civil','teacher','psy','life'];
+function clean(route){document.body.classList.remove('xiao-study-page','xiao-core-page','xiao-page-home','xiao-page-progress','xiao-page-plans','xiao-page-civil','xiao-page-teacher','xiao-page-psy','xiao-page-life');document.body.dataset.route=route;document.querySelectorAll('[data-xiao-page]').forEach(el=>{if(el.dataset.xiaoPage!==route)el.hidden=true})}
+function mark(route){document.querySelectorAll('.xiaoSideItem').forEach(b=>{let s=b.getAttribute('onclick')||'',r=b.dataset.route;b.classList.toggle('on',r===route||s.includes(`'${route}'`)||(route==='home'&&s.includes("'today'")))})}
+function show(route,opt={}){if(!VALID.includes(route))route='home';clean(route);let ok=false;try{if(route==='home'){setTab?.('today');ok=true}else if(route==='progress'||route==='plans'){if(typeof xiaoOpenCorePage==='function'){xiaoOpenCorePage(route);ok=true}}else if(['civil','teacher','psy'].includes(route)){if(typeof xiaoOpenStudyPage==='function'){xiaoOpenStudyPage(route);ok=true}}else if(route==='life'){setTab?.('more');ok=true}}catch(err){console.error('[router]',route,err)}document.body.classList.add('xiao-page-'+route);mark(route);if(!opt.silent)try{sessionStorage.setItem('xiaoRoute',route)}catch(e){}closeXiaoSideNav?.();if(!opt.keepScroll)window.scrollTo({top:0,left:0,behavior:'auto'});window.dispatchEvent(new CustomEvent('xiao:route',{detail:{route,ok}}));return ok}
+window.WorkbenchRouter={show,home:()=>show('home'),current:()=>{try{let r=sessionStorage.getItem('xiaoRoute')||'home';return VALID.includes(r)?r:'home'}catch(e){return'home'}},valid:VALID.slice()};window.xiaoRoute=show;window.xiaoSideGo=tab=>show(tab==='today'?'home':tab==='more'?'life':tab);window.xiaoStudyGo=k=>show(k);window.xiaoCoreHome=()=>show('home');window.xiaoLeaveStudyPage=()=>show('home');window.openCivilMasterPlan=()=>show('civil');window.openTeacherMaster=()=>show('teacher');window.openPsyMaster=()=>show('psy');
+window.addEventListener('pageshow',ev=>{let r=WorkbenchRouter.current();if(r!=='home'||ev.persisted)setTimeout(()=>show(r,{silent:true,keepScroll:true}),80)});window.addEventListener('popstate',()=>{let r=WorkbenchRouter.current();show(r,{silent:true})});
 })();
