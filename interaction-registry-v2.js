@@ -1,28 +1,28 @@
-/* 晓的工作台 V2：最终交互注册表。此文件必须最后加载。 */
+/* 晓的工作台 V2：最终交互注册表 v2。此文件必须最后加载。 */
 (function(){
-function pick(){return {
- task:window.xiaoStableTaskForm||window.xiaoTaskForm||window.taskForm,
+/* 先捕获真实实现，再覆盖历史别名，避免 taskForm/xiaoTaskForm 相互递归 */
+const impl={
+ task:typeof window.xiaoStableTaskForm==='function'?window.xiaoStableTaskForm:(typeof window.xiaoTaskForm==='function'?window.xiaoTaskForm:window.taskForm),
  plan:window.planForm,
  close:window.closeM,
  life:window.xiaoOpenLife,
- settings:window.openWorkbenchSettings
-}}
-const stable=pick();
-window.XiaoActions={
- task(id,planId){return (window.xiaoStableTaskForm||stable.task)?.(id,planId)},
- plan(id,level){return stable.plan?.(id,level)},
- close(){return stable.close?.()},
- route(route){if(window.WorkbenchRouter)return WorkbenchRouter.show(route);if(route==='home'&&typeof setTab==='function')return setTab('today')},
- study(kind){if(window.WorkbenchRouter)return WorkbenchRouter.show(kind);return window.xiaoOpenStudyPage?.(kind)},
- life(){return stable.life?.()},settings(){return stable.settings?.()}
+ settings:window.openWorkbenchSettings,
+ study:window.xiaoOpenStudyPage
 };
-/* 最常被历史脚本覆盖的入口统一固定到注册表 */
+window.XiaoActions={
+ task(id,planId){if(typeof impl.task!=='function')return console.warn('[晓的工作台] 任务编辑器未加载');return impl.task(id,planId)},
+ plan(id,level){if(typeof impl.plan!=='function')return console.warn('[晓的工作台] 计划编辑器未加载');return impl.plan(id,level)},
+ close(){return impl.close?.()},
+ route(route){if(window.WorkbenchRouter)return WorkbenchRouter.show(route);if(route==='home'&&typeof setTab==='function')return setTab('today')},
+ study(kind){if(window.WorkbenchRouter)return WorkbenchRouter.show(kind);return impl.study?.(kind)},
+ life(){return impl.life?.()},settings(){return impl.settings?.()}
+};
 window.taskForm=(id)=>XiaoActions.task(id,null);
 window.xiaoTaskForm=(id,planId)=>XiaoActions.task(id,planId);
 window.editPlan=(id)=>XiaoActions.plan(id);
 window.xiaoCoreHome=()=>XiaoActions.route('home');
 window.xiaoLeaveStudyPage=()=>XiaoActions.route('home');
-/* 运行时诊断：按钮引用不存在函数时给出明确日志 */
-window.xiaoInteractionAudit=function(){let missing=new Map();document.querySelectorAll('[onclick]').forEach(el=>{let code=el.getAttribute('onclick')||'',m=code.match(/^\s*([A-Za-z_$][\w$]*)\s*\(/);if(m&&typeof window[m[1]]!=='function'){if(!missing.has(m[1]))missing.set(m[1],[]);missing.get(m[1]).push(el)}});if(missing.size)console.warn('[晓的工作台] 仍有缺失交互函数:',[...missing.keys()]);return [...missing.keys()]};
+/* 扫描 onclick 中所有函数调用，不只检查第一个 */
+window.xiaoInteractionAudit=function(){let missing=new Set(),checked=0;document.querySelectorAll('[onclick]').forEach(el=>{let code=el.getAttribute('onclick')||'',re=/\b([A-Za-z_$][\w$]*)\s*\(/g,m;while((m=re.exec(code))){let n=m[1];if(['if','for','while','switch','catch','function','confirm','alert'].includes(n))continue;checked++;if(typeof window[n]!=='function'&&!['classList'].includes(n))missing.add(n)}});let out=[...missing];if(out.length)console.warn('[晓的工作台] 缺失交互函数:',out);else console.info(`[晓的工作台] 交互审计通过，共检查 ${checked} 个函数调用`);return out};
 setTimeout(xiaoInteractionAudit,1200);
 })();
