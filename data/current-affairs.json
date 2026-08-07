@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-07T01:43:54.774892+00:00",
+  "updated_at": "2026-08-07T23:48:23.096653+00:00",
   "sources": [
     "中国政府网·政策",
     "中国政府网·要闻",
@@ -7,23 +7,26 @@
     "新华网·时政联播"
   ],
   "source_stats": {
-    "中国政府网·政策": 16,
+    "中国政府网·政策": 15,
     "中国政府网·要闻": 0,
-    "新华网·时政": 32,
+    "新华网·时政": 33,
     "新华网·时政联播": 4
   },
   "filter": "近14天 + 公考价值筛选 + 事件级去重",
   "daily_picks": {
     "2026-08-07": [
+      "9b9740838eca",
       "2bfe0641ab3b",
-      "61690752ade0"
+      "43358b2d459e",
+      "d4d7d79ff17a",
+      "b22ed9ccfe38"
     ],
     "2026-08-06": [
-      "1216931de621",
+      "932aa2a3f19c",
+      "a649cd0d31f4",
       "6fa0459f886c",
       "5f5fe89eabad",
-      "7b1cc4fd9c6a",
-      "325c4db02f4b"
+      "7b1cc4fd9c6a"
     ],
     "2026-08-05": [
       "932aa2a3f19c",
@@ -56,18 +59,33 @@
       "c02678ef944b"
     ],
     "2026-07-30": [
-      "c2d7694d8900",
-      "73fef00c2bd3"
+      "c2d7694d8900"
     ],
     "2026-07-27": [
       "91c99049841e",
       "0eb903f42e58"
-    ],
-    "2026-07-24": [
-      "5b8da65a2f03"
     ]
   },
   "items": [
+    {
+      "id": "9b9740838eca",
+      "date": "2026-08-07",
+      "category": "时政要闻",
+      "source": "新华网·时政",
+      "source_priority": 3,
+      "title": "《民用航空发展“十五五”规划》印发",
+      "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
+      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“时政要闻”相关规范表述。",
+      "essay_material": "申论积累：中国式现代化、国家治理与高质量发展。可从背景、举措、意义三个角度整理。",
+      "score": 3,
+      "url": "https://www.news.cn/politics/20260807/0499e41a6bb14132b5012ffc31e9b52a/c.html",
+      "also_sources": [
+        {
+          "source": "新华网·时政联播",
+          "url": "https://www.news.cn/politics/20260807/db519f2d586a47e580b85275b0638154/c.html"
+        }
+      ]
+    },
     {
       "id": "2bfe0641ab3b",
       "date": "2026-08-07",
@@ -79,39 +97,72 @@
       "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“社会民生”相关规范表述。",
       "essay_material": "申论积累：保障和改善民生、公共服务与社会治理。可从背景、举措、意义三个角度整理。",
       "score": 2,
-      "url": "https://www.news.cn/politics/20260807/0975887d4ff6443eb493b258ea835c0e/c.html",
-      "also_sources": [
-        {
-          "source": "新华网·时政联播",
-          "url": "https://www.news.cn/politics/20260807/0975887d4ff6443eb493b258ea835c0e/c.html"
-        }
-      ]
+      "url": "https://www.news.cn/politics/20260807/0975887d4ff6443eb493b258ea835c0e/c.html"
     },
     {
-      "id": "61690752ade0",
+      "id": "43358b2d459e",
+      "date": "2026-08-07",
+      "category": "经济发展",
+      "source": "新华网·时政",
+      "source_priority": 3,
+      "title": "青海省西宁经济技术开发区管委会原副主任刘云洲被开除党籍",
+      "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
+      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“经济发展”相关规范表述。",
+      "essay_material": "申论积累：高质量发展、扩大内需与现代化产业体系。可从背景、举措、意义三个角度整理。",
+      "score": 2,
+      "url": "https://www.news.cn/legal/20260807/c3b8659794a04769b5d08496ae2ee36c/c.html"
+    },
+    {
+      "id": "d4d7d79ff17a",
       "date": "2026-08-07",
       "category": "科技创新",
       "source": "新华网·时政联播",
       "source_priority": 3,
-      "title": "学习新语·铸魂强党丨学懂弄通做实党的创新理论",
+      "title": "800亿方净水背后的科技密码",
       "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
       "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“科技创新”相关规范表述。",
       "essay_material": "申论积累：科技创新、新质生产力与高质量发展。可从背景、举措、意义三个角度整理。",
       "score": 2,
-      "url": "https://www.news.cn/politics/20260807/3fb40b1a7ce34c889983b915a26c9ed6/c.html"
+      "url": "https://www.news.cn/politics/20260807/c65b21e8715345769c8dc64e23a90eae/c.html"
     },
     {
-      "id": "1216931de621",
-      "date": "2026-08-06",
+      "id": "b22ed9ccfe38",
+      "date": "2026-08-07",
       "category": "时政要闻",
       "source": "新华网·时政联播",
       "source_priority": 3,
-      "title": "以高度的历史主动把握时代航向——习近平党建思想理论品格系列述评之二",
+      "title": "国防部新闻发言人就近期涉军问题发布消息并答记者问",
       "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
       "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“时政要闻”相关规范表述。",
       "essay_material": "申论积累：中国式现代化、国家治理与高质量发展。可从背景、举措、意义三个角度整理。",
-      "score": 4,
-      "url": "https://www.news.cn/politics/20260806/9ed1cb7ae88448dca030aa361b48195b/c.html"
+      "score": 2,
+      "url": "https://www.news.cn/politics/20260807/edf5f659453345ca869d861545ecd778/c.html"
+    },
+    {
+      "id": "8703dbfe4002",
+      "date": "2026-08-07",
+      "category": "时政要闻",
+      "source": "新华网·时政联播",
+      "source_priority": 3,
+      "title": "身边的红色地标丨古田会议会址：穿越历史的红色课堂",
+      "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
+      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“时政要闻”相关规范表述。",
+      "essay_material": "申论积累：中国式现代化、国家治理与高质量发展。可从背景、举措、意义三个角度整理。",
+      "score": 2,
+      "url": "https://www.news.cn/politics/20260807/d60a8e10a3894efbb206a7e09dee7235/c.html"
+    },
+    {
+      "id": "932aa2a3f19c",
+      "date": "2026-08-06",
+      "category": "时政要闻",
+      "source": "中国政府网·政策",
+      "source_priority": 4,
+      "title": "这份规划，为“十五五”气象观测建设划重点",
+      "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
+      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“时政要闻”相关规范表述。",
+      "essay_material": "申论积累：中国式现代化、国家治理与高质量发展。可从背景、举措、意义三个角度整理。",
+      "score": 3,
+      "url": "https://www.gov.cn/202608/content_7077560.htm"
     },
     {
       "id": "325c4db02f4b",
@@ -124,13 +175,20 @@
       "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“时政要闻”相关规范表述。",
       "essay_material": "申论积累：中国式现代化、国家治理与高质量发展。可从背景、举措、意义三个角度整理。",
       "score": 3,
-      "url": "https://www.news.cn/politics/20260806/bd73279c35194bb9a5a7a590c5f4472a/c.html",
-      "also_sources": [
-        {
-          "source": "新华网·时政联播",
-          "url": "https://www.news.cn/politics/20260806/bd73279c35194bb9a5a7a590c5f4472a/c.html"
-        }
-      ]
+      "url": "https://www.news.cn/politics/20260806/bd73279c35194bb9a5a7a590c5f4472a/c.html"
+    },
+    {
+      "id": "a649cd0d31f4",
+      "date": "2026-08-06",
+      "category": "政策法治",
+      "source": "中国政府网·政策",
+      "source_priority": 4,
+      "title": "推动宏观政策发力提效，重在存量增量政策并举；推动宏观政策发力提效，尤需打好政策“组合拳”；推动宏观政策发力提效，既要优化政策供给，又要强化政策落地。",
+      "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
+      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“政策法治”相关规范表述。",
+      "essay_material": "申论积累：依法行政、制度建设与治理现代化。可从背景、举措、意义三个角度整理。",
+      "score": 2,
+      "url": "https://www.gov.cn/202608/content_7077612.htm"
     },
     {
       "id": "4b85e68a583d",
@@ -495,17 +553,7 @@
       "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“政策法治”相关规范表述。",
       "essay_material": "申论积累：依法行政、制度建设与治理现代化。可从背景、举措、意义三个角度整理。",
       "score": 5,
-      "url": "https://www.gov.cn/202607/content_7077250.htm",
-      "also_sources": [
-        {
-          "source": "中国政府网·政策",
-          "url": "https://www.gov.cn/202607/content_7077244.htm"
-        },
-        {
-          "source": "中国政府网·政策",
-          "url": "https://www.gov.cn/202607/content_7077244.htm"
-        }
-      ]
+      "url": "https://www.gov.cn/202607/content_7077250.htm"
     },
     {
       "id": "a48d500f6172",
@@ -605,19 +653,6 @@
       "url": "https://www.news.cn/politics/20260730/696fa5500b6a4ef98bf0cd02a9f398d3/c.html"
     },
     {
-      "id": "73fef00c2bd3",
-      "date": "2026-07-30",
-      "category": "社会民生",
-      "source": "新华网·时政",
-      "source_priority": 3,
-      "title": "科学与健康丨跨越山海 让中国医疗方案惠及更多人",
-      "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
-      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“社会民生”相关规范表述。",
-      "essay_material": "申论积累：保障和改善民生、公共服务与社会治理。可从背景、举措、意义三个角度整理。",
-      "score": 2,
-      "url": "https://www.news.cn/politics/20260730/af7715b971c64e5d823b80b40fa1e231/c.html"
-    },
-    {
       "id": "91c99049841e",
       "date": "2026-07-27",
       "category": "政策法治",
@@ -642,19 +677,6 @@
       "essay_material": "申论积累：中国式现代化、国家治理与高质量发展。可从背景、举措、意义三个角度整理。",
       "score": 4,
       "url": "https://www.gov.cn/zhengce/content/202607/content_7076508.htm"
-    },
-    {
-      "id": "5b8da65a2f03",
-      "date": "2026-07-24",
-      "category": "时政要闻",
-      "source": "中国政府网·政策",
-      "source_priority": 4,
-      "title": "中共中央 国务院印发《关于加强新时代社会工作的意见》",
-      "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
-      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“时政要闻”相关规范表述。",
-      "essay_material": "申论积累：中国式现代化、国家治理与高质量发展。可从背景、举措、意义三个角度整理。",
-      "score": 5,
-      "url": "https://www.gov.cn/202607/content_7076433.htm"
     }
   ]
 }
