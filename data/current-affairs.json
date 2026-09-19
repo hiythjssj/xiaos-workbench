@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T01:16:57.787444+00:00",
+  "updated_at": "2026-09-19T01:09:55.265112+00:00",
   "sources": [
     "中国政府网·政策",
     "中国政府网·要闻",
@@ -9,29 +9,31 @@
   "source_stats": {
     "中国政府网·政策": 15,
     "中国政府网·要闻": 0,
-    "新华网·时政": 21,
-    "新华网·时政联播": 4
+    "新华网·时政": 19,
+    "新华网·时政联播": 5
   },
   "filter": "近14天 + 公考价值筛选 + 事件级去重",
   "daily_picks": {
     "2026-09-18": [
-      "7fa7a7e2f748",
-      "d98a3c5f02d1",
-      "5d3cbeeacc42"
+      "9908212a42b0",
+      "2b4833b92354",
+      "34c26d414aee",
+      "838fdb4ba7c6",
+      "7fa7a7e2f748"
     ],
     "2026-09-17": [
-      "9908212a42b0",
       "9d78e6848e80",
+      "21af6c204e2a",
+      "4bcd13fe11c0",
       "b2c7fd5ec9c3",
-      "f19eb032bb9a",
-      "ee4b28060bdb"
+      "64fbf9be6f1d"
     ],
     "2026-09-16": [
       "f7beb09d5391",
       "2587ea6dea26",
       "2587ea6dea26",
-      "62dd641432b1",
-      "2e5fe0ada9df"
+      "42d8d614447c",
+      "df35b0683603"
     ],
     "2026-09-15": [
       "348492530d59",
@@ -55,21 +57,80 @@
     "2026-09-10": [
       "a82843d5ebf1",
       "dbcc7b960795",
-      "0d6528659d27",
-      "5f081485f1e3",
-      "fb3edf47ac9a"
+      "5f081485f1e3"
     ],
     "2026-09-09": [
       "b76daf0ab6e6"
     ],
     "2026-09-05": [
       "0528e38f87d3"
-    ],
-    "2026-09-04": [
-      "13db5ea903a3"
     ]
   },
   "items": [
+    {
+      "id": "9908212a42b0",
+      "date": "2026-09-18",
+      "category": "时政要闻",
+      "source": "中国政府网·政策",
+      "source_priority": 4,
+      "title": "国务院办公厅关于进一步加强烟花爆竹全链条安全监管的意见",
+      "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
+      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“时政要闻”相关规范表述。",
+      "essay_material": "申论积累：中国式现代化、国家治理与高质量发展。可从背景、举措、意义三个角度整理。",
+      "score": 5,
+      "url": "https://www.gov.cn/zhengce/content/202609/content_7081356.htm"
+    },
+    {
+      "id": "2b4833b92354",
+      "date": "2026-09-18",
+      "category": "经济发展",
+      "source": "中国政府网·政策",
+      "source_priority": 4,
+      "title": "国务院办公厅转发文化和旅游部等部门《关于促进房车消费的若干措施》的通知",
+      "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
+      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“经济发展”相关规范表述。",
+      "essay_material": "申论积累：高质量发展、扩大内需与现代化产业体系。可从背景、举措、意义三个角度整理。",
+      "score": 4,
+      "url": "https://www.gov.cn/zhengce/content/202609/content_7081441.htm",
+      "also_sources": [
+        {
+          "source": "新华网·时政联播",
+          "url": "https://www.news.cn/politics/20260918/97d1b948341e424d809825c5755d841c/c.html"
+        }
+      ]
+    },
+    {
+      "id": "34c26d414aee",
+      "date": "2026-09-18",
+      "category": "社会民生",
+      "source": "新华网·时政联播",
+      "source_priority": 3,
+      "title": "国务院常务会议解读丨国务院常务会议部署实施医疗康复护理扩容提升工程",
+      "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
+      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“社会民生”相关规范表述。",
+      "essay_material": "申论积累：保障和改善民生、公共服务与社会治理。可从背景、举措、意义三个角度整理。",
+      "score": 4,
+      "url": "https://www.news.cn/politics/20260918/7b789639e6df41b69dbb60fc35624f0a/c.html"
+    },
+    {
+      "id": "838fdb4ba7c6",
+      "date": "2026-09-18",
+      "category": "时政要闻",
+      "source": "新华网·时政",
+      "source_priority": 3,
+      "title": "《医药工业发展“十五五”规划》发布",
+      "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
+      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“时政要闻”相关规范表述。",
+      "essay_material": "申论积累：中国式现代化、国家治理与高质量发展。可从背景、举措、意义三个角度整理。",
+      "score": 3,
+      "url": "https://www.news.cn/politics/20260918/78c04d3750264fe69af0a5f5e6e49bd8/c.html",
+      "also_sources": [
+        {
+          "source": "新华网·时政联播",
+          "url": "https://www.news.cn/politics/20260918/801af47557e44e73a46c87c0d517a066/c.html"
+        }
+      ]
+    },
     {
       "id": "7fa7a7e2f748",
       "date": "2026-09-18",
@@ -81,58 +142,33 @@
       "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“时政要闻”相关规范表述。",
       "essay_material": "申论积累：中国式现代化、国家治理与高质量发展。可从背景、举措、意义三个角度整理。",
       "score": 3,
-      "url": "https://www.news.cn/politics/20260918/2b2a84165bb64f6bb76c012c0cf8c871/c.html",
-      "also_sources": [
-        {
-          "source": "新华网·时政联播",
-          "url": "https://www.news.cn/politics/20260918/2b2a84165bb64f6bb76c012c0cf8c871/c.html"
-        }
-      ]
+      "url": "https://www.news.cn/politics/20260918/2b2a84165bb64f6bb76c012c0cf8c871/c.html"
     },
     {
-      "id": "5d3cbeeacc42",
+      "id": "7bfc7e875ec3",
       "date": "2026-09-18",
       "category": "时政要闻",
       "source": "新华网·时政联播",
       "source_priority": 3,
-      "title": "新华社权威快报丨医药工业发展“十五五”规划发布",
+      "title": "两部门出台意见提升机动车排放检验质量",
       "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
       "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“时政要闻”相关规范表述。",
       "essay_material": "申论积累：中国式现代化、国家治理与高质量发展。可从背景、举措、意义三个角度整理。",
       "score": 3,
-      "url": "https://www.news.cn/politics/20260918/ba41f454f939423bbb744507f18d9794/c.html"
+      "url": "https://www.news.cn/politics/20260918/431b35f94a11453ca2a28a1d615d89df/c.html"
     },
     {
-      "id": "d98a3c5f02d1",
+      "id": "994c7294981d",
       "date": "2026-09-18",
-      "category": "三农乡村",
+      "category": "时政要闻",
       "source": "新华网·时政联播",
       "source_priority": 3,
-      "title": "肩负使命，他们讲述在乡村振兴一线的实干故事",
-      "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
-      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“三农乡村”相关规范表述。",
-      "essay_material": "申论积累：乡村全面振兴、农业农村现代化与为农服务。可从背景、举措、意义三个角度整理。",
-      "score": 2,
-      "url": "https://www.news.cn/politics/20260918/010753c99cac4b30a83d42579ba17a4f/c.html"
-    },
-    {
-      "id": "9908212a42b0",
-      "date": "2026-09-17",
-      "category": "时政要闻",
-      "source": "中国政府网·政策",
-      "source_priority": 4,
-      "title": "国务院办公厅关于进一步加强烟花爆竹全链条安全监管的意见",
+      "title": "推进住房城乡建设事业高质量发展——国新办发布会聚焦“十五五”时期住房城乡建设工作",
       "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
       "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“时政要闻”相关规范表述。",
       "essay_material": "申论积累：中国式现代化、国家治理与高质量发展。可从背景、举措、意义三个角度整理。",
-      "score": 5,
-      "url": "https://www.gov.cn/zhengce/content/202609/content_7081356.htm",
-      "also_sources": [
-        {
-          "source": "新华网·时政",
-          "url": "https://www.news.cn/politics/20260917/ce279862c10e40d391922e7f9e5880f8/c.html"
-        }
-      ]
+      "score": 3,
+      "url": "https://www.news.cn/politics/20260918/adbeed75a7c44166b37108ee2c243c1c/c.html"
     },
     {
       "id": "9d78e6848e80",
@@ -148,17 +184,30 @@
       "url": "https://www.gov.cn/202609/content_7081017.htm"
     },
     {
-      "id": "ee4b28060bdb",
+      "id": "21af6c204e2a",
       "date": "2026-09-17",
       "category": "时政要闻",
-      "source": "新华网·时政联播",
+      "source": "新华网·时政",
       "source_priority": 3,
-      "title": "更好地满足人民群众的视听需求——国新办发布会聚焦“十五五”时期广播电视和网络视听工作",
+      "title": "国务院办公厅印发《关于进一步加强烟花爆竹全链条安全监管的意见》",
       "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
       "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“时政要闻”相关规范表述。",
       "essay_material": "申论积累：中国式现代化、国家治理与高质量发展。可从背景、举措、意义三个角度整理。",
-      "score": 3,
-      "url": "https://www.news.cn/politics/20260917/20a0959c083347dfaa26fe8f16d23f31/c.html"
+      "score": 5,
+      "url": "https://www.news.cn/politics/20260917/ce279862c10e40d391922e7f9e5880f8/c.html"
+    },
+    {
+      "id": "4bcd13fe11c0",
+      "date": "2026-09-17",
+      "category": "经济发展",
+      "source": "新华网·时政",
+      "source_priority": 3,
+      "title": "赋能世界经济 合作共创未来——中国先进制造业何以走向全球",
+      "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
+      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“经济发展”相关规范表述。",
+      "essay_material": "申论积累：高质量发展、扩大内需与现代化产业体系。可从背景、举措、意义三个角度整理。",
+      "score": 2,
+      "url": "https://www.news.cn/world/20260917/adb6d1f308e34628bfd0861db46d7091/c.html"
     },
     {
       "id": "b2c7fd5ec9c3",
@@ -174,17 +223,30 @@
       "url": "https://www.news.cn/politics/20260917/0d71c1a77e394d1295155881f9ca1817/c.html"
     },
     {
-      "id": "f19eb032bb9a",
+      "id": "64fbf9be6f1d",
       "date": "2026-09-17",
-      "category": "政策法治",
+      "category": "社会民生",
       "source": "新华网·时政",
       "source_priority": 3,
-      "title": "最高法发布人民法院网络法治典型案例——仿冒名人网络带货，要担什么责",
+      "title": "“全民国防教育月” 绷紧军事保密这根弦",
       "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
-      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“政策法治”相关规范表述。",
-      "essay_material": "申论积累：依法行政、制度建设与治理现代化。可从背景、举措、意义三个角度整理。",
+      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“社会民生”相关规范表述。",
+      "essay_material": "申论积累：保障和改善民生、公共服务与社会治理。可从背景、举措、意义三个角度整理。",
       "score": 2,
-      "url": "https://www.news.cn/legal/20260917/585e7b9ff9614b8bbc88ff38763a3085/c.html"
+      "url": "https://www.news.cn/legal/20260917/0af954ad59bf400aa82199411f1a9f0a/c.html"
+    },
+    {
+      "id": "86027e4c5496",
+      "date": "2026-09-17",
+      "category": "经济发展",
+      "source": "新华网·时政",
+      "source_priority": 3,
+      "title": "北京晒出绿色经济发展新成绩",
+      "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
+      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“经济发展”相关规范表述。",
+      "essay_material": "申论积累：高质量发展、扩大内需与现代化产业体系。可从背景、举措、意义三个角度整理。",
+      "score": 2,
+      "url": "https://www.news.cn/local/20260917/8e183104e6264b77aef2f45268849b76/c.html"
     },
     {
       "id": "f7beb09d5391",
@@ -211,19 +273,6 @@
       "essay_material": "申论积累：中国式现代化、国家治理与高质量发展。可从背景、举措、意义三个角度整理。",
       "score": 3,
       "url": "https://www.news.cn/politics/20260916/2261beb2db7c4a1a82ae75548d00104d/c.html"
-    },
-    {
-      "id": "386fd6b5f2f7",
-      "date": "2026-09-16",
-      "category": "时政要闻",
-      "source": "新华网·时政",
-      "source_priority": 3,
-      "title": "“十五五”开局起步，司法部介绍了哪些重点工作？",
-      "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
-      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“时政要闻”相关规范表述。",
-      "essay_material": "申论积累：中国式现代化、国家治理与高质量发展。可从背景、举措、意义三个角度整理。",
-      "score": 3,
-      "url": "https://www.news.cn/legal/20260916/84cb49771e0e45719523ea848c85277a/c.html"
     },
     {
       "id": "2587ea6dea26",
@@ -276,32 +325,6 @@
       "essay_material": "申论积累：保障和改善民生、公共服务与社会治理。可从背景、举措、意义三个角度整理。",
       "score": 2,
       "url": "https://www.news.cn/politics/20260916/e0955995950d4d8a967fcb652ccbd5b1/c.html"
-    },
-    {
-      "id": "62dd641432b1",
-      "date": "2026-09-16",
-      "category": "政策法治",
-      "source": "新华网·时政",
-      "source_priority": 3,
-      "title": "扎实推进全面依法治国和司法行政事业高质量发展",
-      "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
-      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“政策法治”相关规范表述。",
-      "essay_material": "申论积累：依法行政、制度建设与治理现代化。可从背景、举措、意义三个角度整理。",
-      "score": 2,
-      "url": "https://www.news.cn/legal/20260916/ae969f639a32499092eb392bd972795f/c.html"
-    },
-    {
-      "id": "2e5fe0ada9df",
-      "date": "2026-09-16",
-      "category": "科技创新",
-      "source": "新华网·时政",
-      "source_priority": 3,
-      "title": "永丰村丰收了！科技赋能“粮仓”再升级",
-      "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
-      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“科技创新”相关规范表述。",
-      "essay_material": "申论积累：科技创新、新质生产力与高质量发展。可从背景、举措、意义三个角度整理。",
-      "score": 2,
-      "url": "https://www.news.cn/local/20260916/67cef4c5ea3942928ef769c2e74e35f5/c.html"
     },
     {
       "id": "348492530d59",
@@ -483,19 +506,6 @@
       "url": "https://www.news.cn/politics/20260910/5087a79deec045c18329e2ae05dbbc7f/c.html"
     },
     {
-      "id": "0d6528659d27",
-      "date": "2026-09-10",
-      "category": "时政要闻",
-      "source": "新华网·时政",
-      "source_priority": 3,
-      "title": "为开好局起好步广泛凝聚力量——国新办发布会介绍“十五五”发展社会主义民主有关情况",
-      "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
-      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“时政要闻”相关规范表述。",
-      "essay_material": "申论积累：中国式现代化、国家治理与高质量发展。可从背景、举措、意义三个角度整理。",
-      "score": 3,
-      "url": "https://www.news.cn/politics/20260910/7c09e2b5a8024317bc11099811f18fd6/c.html"
-    },
-    {
       "id": "5f081485f1e3",
       "date": "2026-09-10",
       "category": "三农乡村",
@@ -507,19 +517,6 @@
       "essay_material": "申论积累：乡村全面振兴、农业农村现代化与为农服务。可从背景、举措、意义三个角度整理。",
       "score": 2,
       "url": "https://www.news.cn/politics/20260910/cec7423d6fe84e9ab3bd5dc68768869f/c.html"
-    },
-    {
-      "id": "fb3edf47ac9a",
-      "date": "2026-09-10",
-      "category": "社会民生",
-      "source": "新华网·时政",
-      "source_priority": 3,
-      "title": "中央宣传部、教育部联合发布“最美教师”先进事迹",
-      "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
-      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“社会民生”相关规范表述。",
-      "essay_material": "申论积累：保障和改善民生、公共服务与社会治理。可从背景、举措、意义三个角度整理。",
-      "score": 2,
-      "url": "https://www.news.cn/politics/20260910/cb5de607cdbc4b0798b472d80bef933c/c.html"
     },
     {
       "id": "b76daf0ab6e6",
@@ -546,19 +543,6 @@
       "essay_material": "申论积累：科技创新、新质生产力与高质量发展。可从背景、举措、意义三个角度整理。",
       "score": 2,
       "url": "https://www.news.cn/comments/20260905/be70b66f01cf4074bd97cba7a9ed7747/c.html"
-    },
-    {
-      "id": "13db5ea903a3",
-      "date": "2026-09-04",
-      "category": "生态文明",
-      "source": "中国政府网·政策",
-      "source_priority": 4,
-      "title": "中共中央办公厅 国务院办公厅印发《党政领导干部生态环境损害责任追究办法》",
-      "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
-      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“生态文明”相关规范表述。",
-      "essay_material": "申论积累：绿色发展与生态文明建设。可从背景、举措、意义三个角度整理。",
-      "score": 5,
-      "url": "https://www.gov.cn/202608/content_7079098.htm"
     }
   ]
 }
