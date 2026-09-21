@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T01:08:50.029896+00:00",
+  "updated_at": "2026-09-21T01:04:59.336093+00:00",
   "sources": [
     "中国政府网·政策",
     "中国政府网·要闻",
@@ -7,24 +7,34 @@
     "新华网·时政联播"
   ],
   "source_stats": {
-    "中国政府网·政策": 14,
+    "中国政府网·政策": 15,
     "中国政府网·要闻": 0,
-    "新华网·时政": 19,
-    "新华网·时政联播": 5
+    "新华网·时政": 21,
+    "新华网·时政联播": 3
   },
   "filter": "近14天 + 公考价值筛选 + 事件级去重",
   "daily_picks": {
+    "2026-09-21": [
+      "6fa0278419dc"
+    ],
+    "2026-09-20": [
+      "f9215e0f8e0d",
+      "2b4833b92354",
+      "b835ac57c076",
+      "2752e6e66272",
+      "586d398d6616"
+    ],
     "2026-09-19": [
-      "b5bdcb7d88b0",
       "447c227cb953",
       "981d83cc6482",
       "bdd7264e3f3e",
+      "a30717b05596",
       "4ecf1a43d0cc"
     ],
     "2026-09-18": [
       "9908212a42b0",
-      "2b4833b92354",
       "03127a441244",
+      "e2cb6dc5b83d",
       "838fdb4ba7c6",
       "7fa7a7e2f748"
     ],
@@ -50,11 +60,10 @@
     "2026-09-14": [
       "4a32df826568",
       "b543184d4a77",
-      "0598c0b41db9"
+      "d84c8b3bb75b"
     ],
     "2026-09-11": [
-      "e2f74d7d3084",
-      "5ffcf950ff0c"
+      "e2f74d7d3084"
     ],
     "2026-09-10": [
       "a82843d5ebf1"
@@ -65,17 +74,88 @@
   },
   "items": [
     {
-      "id": "b5bdcb7d88b0",
-      "date": "2026-09-19",
-      "category": "时政要闻",
+      "id": "6fa0278419dc",
+      "date": "2026-09-21",
+      "category": "社会民生",
       "source": "新华网·时政联播",
       "source_priority": 3,
-      "title": "习近平总书记关切事丨以文化自觉，守护城市根脉",
+      "title": "全民国防教育月丨你我皆“门神”",
+      "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
+      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“社会民生”相关规范表述。",
+      "essay_material": "申论积累：保障和改善民生、公共服务与社会治理。可从背景、举措、意义三个角度整理。",
+      "score": 2,
+      "url": "https://www.news.cn/politics/20260921/acd93714888648c8b3770014d355304b/c.html"
+    },
+    {
+      "id": "f9215e0f8e0d",
+      "date": "2026-09-20",
+      "category": "时政要闻",
+      "source": "中国政府网·政策",
+      "source_priority": 4,
+      "title": "中共中央办公厅 国务院办公厅印发《关于分类推进高校改革的意见》",
+      "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
+      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“时政要闻”相关规范表述。",
+      "essay_material": "申论积累：中国式现代化、国家治理与高质量发展。可从背景、举措、意义三个角度整理。",
+      "score": 5,
+      "url": "https://www.gov.cn/202609/content_7081587.htm"
+    },
+    {
+      "id": "2b4833b92354",
+      "date": "2026-09-20",
+      "category": "经济发展",
+      "source": "中国政府网·政策",
+      "source_priority": 4,
+      "title": "国务院办公厅转发文化和旅游部等部门《关于促进房车消费的若干措施》的通知",
+      "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
+      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“经济发展”相关规范表述。",
+      "essay_material": "申论积累：高质量发展、扩大内需与现代化产业体系。可从背景、举措、意义三个角度整理。",
+      "score": 4,
+      "url": "https://www.gov.cn/zhengce/content/202609/content_7081441.htm",
+      "also_sources": [
+        {
+          "source": "新华网·时政联播",
+          "url": "https://www.news.cn/politics/20260920/c7b2f756785f4afbb3987764301ab435/c.html"
+        }
+      ]
+    },
+    {
+      "id": "2752e6e66272",
+      "date": "2026-09-20",
+      "category": "时政要闻",
+      "source": "新华网·时政",
+      "source_priority": 3,
+      "title": "国务院任免国家工作人员（9月20日）",
       "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
       "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“时政要闻”相关规范表述。",
       "essay_material": "申论积累：中国式现代化、国家治理与高质量发展。可从背景、举措、意义三个角度整理。",
       "score": 4,
-      "url": "https://www.news.cn/politics/20260919/770657129b6a4d2999a4deefa4f8d39b/c.html"
+      "url": "https://www.news.cn/politics/20260920/b928a380c4c1409ebfe6c7ab7fa1199f/c.html"
+    },
+    {
+      "id": "586d398d6616",
+      "date": "2026-09-20",
+      "category": "经济发展",
+      "source": "新华网·时政",
+      "source_priority": 3,
+      "title": "商务部消费促进司负责人谈2026年1-8月我国消费市场情况",
+      "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
+      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“经济发展”相关规范表述。",
+      "essay_material": "申论积累：高质量发展、扩大内需与现代化产业体系。可从背景、举措、意义三个角度整理。",
+      "score": 2,
+      "url": "https://www.news.cn/fortune/20260920/c338b906953642378d71b6fb497f22ac/c.html"
+    },
+    {
+      "id": "b835ac57c076",
+      "date": "2026-09-20",
+      "category": "三农乡村",
+      "source": "新华网·时政联播",
+      "source_priority": 3,
+      "title": "农业农村部部署进一步规范农药兽药网络经营秩序",
+      "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
+      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“三农乡村”相关规范表述。",
+      "essay_material": "申论积累：乡村全面振兴、农业农村现代化与为农服务。可从背景、举措、意义三个角度整理。",
+      "score": 2,
+      "url": "https://www.news.cn/politics/20260920/23b8388330324defbebc96ba398d837b/c.html"
     },
     {
       "id": "447c227cb953",
@@ -114,13 +194,7 @@
       "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“科技创新”相关规范表述。",
       "essay_material": "申论积累：科技创新、新质生产力与高质量发展。可从背景、举措、意义三个角度整理。",
       "score": 2,
-      "url": "https://www.news.cn/politics/20260919/940bfe6a7e0f4f71894c8eaeb63acfb2/c.html",
-      "also_sources": [
-        {
-          "source": "新华网·时政联播",
-          "url": "https://www.news.cn/politics/20260919/940bfe6a7e0f4f71894c8eaeb63acfb2/c.html"
-        }
-      ]
+      "url": "https://www.news.cn/politics/20260919/940bfe6a7e0f4f71894c8eaeb63acfb2/c.html"
     },
     {
       "id": "bdd7264e3f3e",
@@ -133,13 +207,7 @@
       "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“生态文明”相关规范表述。",
       "essay_material": "申论积累：绿色发展与生态文明建设。可从背景、举措、意义三个角度整理。",
       "score": 2,
-      "url": "https://www.news.cn/politics/20260919/b89ac46784134edeae85b50a8846d544/c.html",
-      "also_sources": [
-        {
-          "source": "新华网·时政联播",
-          "url": "https://www.news.cn/politics/20260919/b89ac46784134edeae85b50a8846d544/c.html"
-        }
-      ]
+      "url": "https://www.news.cn/politics/20260919/b89ac46784134edeae85b50a8846d544/c.html"
     },
     {
       "id": "3df5ad13e6d8",
@@ -155,30 +223,17 @@
       "url": "https://www.news.cn/politics/20260919/a84b82e17a2c48b49a8c6be93ae265c4/c.html"
     },
     {
-      "id": "89580ec58872",
+      "id": "a30717b05596",
       "date": "2026-09-19",
-      "category": "科技创新",
-      "source": "新华网·时政联播",
+      "category": "社会民生",
+      "source": "新华网·时政",
       "source_priority": 3,
-      "title": "第29届京台科技论坛在京开幕 两岸嘉宾共话科技创新与产业合作",
+      "title": "最高检发布10件全民国防教育日检察公益诉讼典型案例",
       "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
-      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“科技创新”相关规范表述。",
-      "essay_material": "申论积累：科技创新、新质生产力与高质量发展。可从背景、举措、意义三个角度整理。",
+      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“社会民生”相关规范表述。",
+      "essay_material": "申论积累：保障和改善民生、公共服务与社会治理。可从背景、举措、意义三个角度整理。",
       "score": 2,
-      "url": "https://www.news.cn/politics/20260919/33a73af256fc41c8827228f000557714/c.html"
-    },
-    {
-      "id": "6ae0f0ea0685",
-      "date": "2026-09-19",
-      "category": "时政要闻",
-      "source": "新华网·时政联播",
-      "source_priority": 3,
-      "title": "老山下，这群“巾帼红”把国防课唱进了群众心里",
-      "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
-      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“时政要闻”相关规范表述。",
-      "essay_material": "申论积累：中国式现代化、国家治理与高质量发展。可从背景、举措、意义三个角度整理。",
-      "score": 2,
-      "url": "https://www.news.cn/politics/20260919/4b0f93e5e53748df87e73ddd97959b58/c.html"
+      "url": "https://www.news.cn/legal/20260919/9531b566f4114abf88ee38a7eb00cf3a/c.html"
     },
     {
       "id": "9908212a42b0",
@@ -194,17 +249,23 @@
       "url": "https://www.gov.cn/zhengce/content/202609/content_7081356.htm"
     },
     {
-      "id": "2b4833b92354",
+      "id": "03127a441244",
       "date": "2026-09-18",
-      "category": "经济发展",
+      "category": "社会民生",
       "source": "中国政府网·政策",
       "source_priority": 4,
-      "title": "国务院办公厅转发文化和旅游部等部门《关于促进房车消费的若干措施》的通知",
+      "title": "国务院常务会议解读 | 国务院常务会议部署实施医疗康复护理扩容提升工程",
       "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
-      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“经济发展”相关规范表述。",
-      "essay_material": "申论积累：高质量发展、扩大内需与现代化产业体系。可从背景、举措、意义三个角度整理。",
+      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“社会民生”相关规范表述。",
+      "essay_material": "申论积累：保障和改善民生、公共服务与社会治理。可从背景、举措、意义三个角度整理。",
       "score": 4,
-      "url": "https://www.gov.cn/zhengce/content/202609/content_7081441.htm"
+      "url": "https://www.gov.cn/202609/content_7081473.htm",
+      "also_sources": [
+        {
+          "source": "中国政府网·政策",
+          "url": "https://www.gov.cn/202609/content_7081473.htm"
+        }
+      ]
     },
     {
       "id": "838fdb4ba7c6",
@@ -233,17 +294,17 @@
       "url": "https://www.news.cn/politics/20260918/2b2a84165bb64f6bb76c012c0cf8c871/c.html"
     },
     {
-      "id": "03127a441244",
+      "id": "e2cb6dc5b83d",
       "date": "2026-09-18",
-      "category": "社会民生",
+      "category": "经济发展",
       "source": "中国政府网·政策",
       "source_priority": 4,
-      "title": "会议部署实施医疗康复护理扩容提升工程，指出要以基层为重点建强医疗康复护理服务体系，推动康复护理资源向社区、家庭延伸，增强城乡居民康复护理服务可及性。",
+      "title": "若干措施坚持问题导向，着力打通房车（包括旅居车、旅居挂车、宿营车）消费堵点，释放房车消费潜力，更好满足人民日益增长的美好生活需要。",
       "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
-      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“社会民生”相关规范表述。",
-      "essay_material": "申论积累：保障和改善民生、公共服务与社会治理。可从背景、举措、意义三个角度整理。",
+      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“经济发展”相关规范表述。",
+      "essay_material": "申论积累：高质量发展、扩大内需与现代化产业体系。可从背景、举措、意义三个角度整理。",
       "score": 2,
-      "url": "https://www.gov.cn/202609/content_7081473.htm"
+      "url": "https://www.gov.cn/202609/content_7081497.htm"
     },
     {
       "id": "2587ea6dea26",
@@ -454,27 +515,17 @@
       "url": "https://www.gov.cn/zhengce/content/202609/content_7080735.htm"
     },
     {
-      "id": "0598c0b41db9",
+      "id": "d84c8b3bb75b",
       "date": "2026-09-14",
       "category": "科技创新",
-      "source": "中国政府网·政策",
-      "source_priority": 4,
-      "title": "近日，商务部会同国家发展改革委、工业和信息化部、民政部、财政部、自然资源部、住房城乡建设部、市场监管总局等部门印发《促进智能家居消费行动方案》。",
+      "source": "新华网·时政",
+      "source_priority": 3,
+      "title": "工业和信息化部：健全行业账款支付规则",
       "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
       "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“科技创新”相关规范表述。",
       "essay_material": "申论积累：科技创新、新质生产力与高质量发展。可从背景、举措、意义三个角度整理。",
-      "score": 3,
-      "url": "https://www.gov.cn/202609/content_7081045.htm",
-      "also_sources": [
-        {
-          "source": "中国政府网·政策",
-          "url": "https://www.gov.cn/202609/content_7081045.htm"
-        },
-        {
-          "source": "新华网·时政",
-          "url": "https://www.news.cn/politics/20260914/250ef9aec34246eaa9d3cbe9746ac639/c.html"
-        }
-      ]
+      "score": 2,
+      "url": "https://www.news.cn/politics/20260914/250ef9aec34246eaa9d3cbe9746ac639/c.html"
     },
     {
       "id": "e2f74d7d3084",
@@ -488,19 +539,6 @@
       "essay_material": "申论积累：中国式现代化、国家治理与高质量发展。可从背景、举措、意义三个角度整理。",
       "score": 4,
       "url": "https://www.gov.cn/zhengce/content/202609/content_7080627.htm"
-    },
-    {
-      "id": "5ffcf950ff0c",
-      "date": "2026-09-11",
-      "category": "社会民生",
-      "source": "新华网·时政",
-      "source_priority": 3,
-      "title": "坚持以正确政绩观高质量推进国防和军队现代化——军队开展树立和践行正确政绩观学习教育取得明显成效",
-      "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
-      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“社会民生”相关规范表述。",
-      "essay_material": "申论积累：保障和改善民生、公共服务与社会治理。可从背景、举措、意义三个角度整理。",
-      "score": 2,
-      "url": "https://www.news.cn/politics/20260911/fc09e139ec174d00b1183bcbe55fac4b/c.html"
     },
     {
       "id": "a82843d5ebf1",
