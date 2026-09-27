@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-26T01:33:48.535982+00:00",
+  "updated_at": "2026-09-27T01:27:09.208819+00:00",
   "sources": [
     "中国政府网·政策",
     "中国政府网·要闻",
@@ -10,17 +10,13 @@
     "中国政府网·政策": 18,
     "中国政府网·要闻": 0,
     "新华网·时政": 26,
-    "新华网·时政联播": 8
+    "新华网·时政联播": 2
   },
   "filter": "近14天 + 公考价值筛选 + 事件级去重",
   "daily_picks": {
     "2026-09-26": [
-      "6c7110d77f09",
-      "bc79fee13060",
-      "c713566590d2"
-    ],
-    "2026-09-25": [
-      "255c4410ee55"
+      "35eba43d9278",
+      "c6ab31b64fad"
     ],
     "2026-09-24": [
       "2ca00a00815f",
@@ -85,76 +81,30 @@
   },
   "items": [
     {
-      "id": "6c7110d77f09",
+      "id": "35eba43d9278",
       "date": "2026-09-26",
       "category": "时政要闻",
       "source": "新华网·时政联播",
       "source_priority": 3,
-      "title": "新华图讯丨习近平和彭丽媛同美国总统特朗普夫妇共同参观美国国家档案馆",
+      "title": "凝聚共同发展的强大合力——习近平主席向全球发展倡议5周年高级别对话会致贺信引发热烈反响",
       "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
       "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“时政要闻”相关规范表述。",
       "essay_material": "申论积累：中国式现代化、国家治理与高质量发展。可从背景、举措、意义三个角度整理。",
       "score": 4,
-      "url": "https://www.news.cn/politics/20260926/534670e1fce4415fa6347e4e2fab04ef/c.html",
-      "also_sources": [
-        {
-          "source": "新华网·时政联播",
-          "url": "https://www.news.cn/politics/20260926/ff2dcbbbf8f0445b8146d58d8e28c115/c.html"
-        },
-        {
-          "source": "新华网·时政联播",
-          "url": "https://www.news.cn/politics/20260926/44c397ea8c97433aad70d353b03bed5c/c.html"
-        },
-        {
-          "source": "新华网·时政联播",
-          "url": "https://www.news.cn/politics/20260926/a31124b5e9e34e12b35436b71b4a0258/c.html"
-        }
-      ]
+      "url": "https://www.news.cn/politics/20260926/1144453c8ebc4a98bbcdf73b441d8161/c.html"
     },
     {
-      "id": "c713566590d2",
+      "id": "c6ab31b64fad",
       "date": "2026-09-26",
       "category": "时政要闻",
       "source": "新华网·时政联播",
       "source_priority": 3,
-      "title": "习近平圆满结束对美国的国事访问",
+      "title": "特稿丨从世界技能大赛看技能发展的多元图景",
       "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
       "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“时政要闻”相关规范表述。",
       "essay_material": "申论积累：中国式现代化、国家治理与高质量发展。可从背景、举措、意义三个角度整理。",
-      "score": 4,
-      "url": "https://www.news.cn/politics/20260926/c5ce1b21eccb40f0bcc79ec0d9e9d65b/c.html"
-    },
-    {
-      "id": "bc79fee13060",
-      "date": "2026-09-26",
-      "category": "科技创新",
-      "source": "新华网·时政联播",
-      "source_priority": 3,
-      "title": "瞭望·治国理政纪事丨努力形成更多更先进的创新成果",
-      "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
-      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“科技创新”相关规范表述。",
-      "essay_material": "申论积累：科技创新、新质生产力与高质量发展。可从背景、举措、意义三个角度整理。",
       "score": 2,
-      "url": "https://www.news.cn/politics/20260926/239300f4bdb145a9a696735386be83b6/c.html"
-    },
-    {
-      "id": "255c4410ee55",
-      "date": "2026-09-25",
-      "category": "时政要闻",
-      "source": "新华网·时政联播",
-      "source_priority": 3,
-      "title": "习近平和彭丽媛同美国总统特朗普夫妇共同参观美国国家档案馆",
-      "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
-      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“时政要闻”相关规范表述。",
-      "essay_material": "申论积累：中国式现代化、国家治理与高质量发展。可从背景、举措、意义三个角度整理。",
-      "score": 4,
-      "url": "https://www.news.cn/politics/20260925/a783769e59a74cf482371fa574c0f44f/c.html",
-      "also_sources": [
-        {
-          "source": "新华网·时政联播",
-          "url": "https://www.news.cn/politics/20260925/ae1a728250ea425897784dfba70ab835/c.html"
-        }
-      ]
+      "url": "https://www.news.cn/politics/20260926/1843327b74294236a1bc07b812d5643f/c.html"
     },
     {
       "id": "2ca00a00815f",
