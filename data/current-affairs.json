@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09T02:56:22.677771+00:00",
+  "updated_at": "2026-10-10T02:20:06.880430+00:00",
   "sources": [
     "中国政府网·政策",
     "中国政府网·要闻",
@@ -7,19 +7,29 @@
     "新华网·时政联播"
   ],
   "source_stats": {
-    "中国政府网·政策": 7,
+    "中国政府网·政策": 11,
     "中国政府网·要闻": 0,
-    "新华网·时政": 17,
-    "新华网·时政联播": 2
+    "新华网·时政": 20,
+    "新华网·时政联播": 6
   },
   "filter": "近14天 + 公考价值筛选 + 事件级去重",
   "daily_picks": {
+    "2026-10-10": [
+      "5ac5d918f9fd"
+    ],
+    "2026-10-09": [
+      "6b3732c467fc",
+      "5931ab84a54f",
+      "7c8e607fc227",
+      "fa424bcaee76",
+      "7daf9a4f952f"
+    ],
     "2026-10-08": [
       "c5711f5da21b",
-      "5931ab84a54f",
       "c1fd70e35f46",
       "00165569b188",
-      "c91b4e02c076"
+      "c91b4e02c076",
+      "40c3c7d3bf67"
     ],
     "2026-09-30": [
       "1701b26ee0e5"
@@ -42,21 +52,72 @@
   },
   "items": [
     {
-      "id": "c5711f5da21b",
-      "date": "2026-10-08",
-      "category": "经济发展",
+      "id": "5ac5d918f9fd",
+      "date": "2026-10-10",
+      "category": "社会民生",
+      "source": "新华网·时政联播",
+      "source_priority": 3,
+      "title": "彭丽媛向2026年联合国教科文组织女童和妇女教育奖颁奖仪式发表视频致辞",
+      "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
+      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“社会民生”相关规范表述。",
+      "essay_material": "申论积累：保障和改善民生、公共服务与社会治理。可从背景、举措、意义三个角度整理。",
+      "score": 2,
+      "url": "https://www.news.cn/politics/20261010/33b949ff91374004b2ec9e6bf28470ad/c.html"
+    },
+    {
+      "id": "6b3732c467fc",
+      "date": "2026-10-09",
+      "category": "科技创新",
       "source": "中国政府网·政策",
       "source_priority": 4,
-      "title": "国务院办公厅关于发展体育赛事激发消费活力的意见",
+      "title": "中共中央 国务院关于发展新质生产力的意见",
       "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
-      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“经济发展”相关规范表述。",
-      "essay_material": "申论积累：高质量发展、扩大内需与现代化产业体系。可从背景、举措、意义三个角度整理。",
+      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“科技创新”相关规范表述。",
+      "essay_material": "申论积累：科技创新、新质生产力与高质量发展。可从背景、举措、意义三个角度整理。",
       "score": 5,
-      "url": "https://www.gov.cn/zhengce/content/202609/content_7082492.htm"
+      "url": "https://www.gov.cn/202610/content_7082820.htm",
+      "also_sources": [
+        {
+          "source": "中国政府网·政策",
+          "url": "https://www.gov.cn/202610/content_7082860.htm"
+        },
+        {
+          "source": "新华网·时政",
+          "url": "https://www.news.cn/politics/20261009/df52fc1f84d845bf8047ef394bc6ea47/c.html"
+        },
+        {
+          "source": "新华网·时政联播",
+          "url": "https://www.news.cn/politics/20261009/9b017d6f3ade430cb9f123c509e83cc1/c.html"
+        },
+        {
+          "source": "中国政府网·政策",
+          "url": "https://www.gov.cn/202610/content_7082841.htm"
+        },
+        {
+          "source": "中国政府网·政策",
+          "url": "https://www.gov.cn/202610/content_7082841.htm"
+        },
+        {
+          "source": "新华网·时政",
+          "url": "https://www.news.cn/politics/20261009/bc927827c7c04201a75a81ad7a29574d/c.html"
+        },
+        {
+          "source": "新华网·时政",
+          "url": "https://www.news.cn/politics/20261009/da45b50805474ddc871217373023d32d/c.html"
+        },
+        {
+          "source": "新华网·时政联播",
+          "url": "https://www.news.cn/politics/20261009/bc927827c7c04201a75a81ad7a29574d/c.html"
+        },
+        {
+          "source": "新华网·时政联播",
+          "url": "https://www.news.cn/politics/20261009/da45b50805474ddc871217373023d32d/c.html"
+        }
+      ]
     },
     {
       "id": "5931ab84a54f",
-      "date": "2026-10-08",
+      "date": "2026-10-09",
       "category": "时政要闻",
       "source": "中国政府网·政策",
       "source_priority": 4,
@@ -68,23 +129,62 @@
       "url": "https://www.gov.cn/zhengce/content/202610/content_7082737.htm"
     },
     {
-      "id": "f4c377ffd324",
-      "date": "2026-10-08",
+      "id": "fa424bcaee76",
+      "date": "2026-10-09",
       "category": "时政要闻",
       "source": "新华网·时政",
       "source_priority": 3,
-      "title": "“十五五”北京中心城区将年增停车设施超2万个",
+      "title": "“十五五”北京城市副中心将继续保持每年千亿投资",
       "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
       "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“时政要闻”相关规范表述。",
       "essay_material": "申论积累：中国式现代化、国家治理与高质量发展。可从背景、举措、意义三个角度整理。",
       "score": 3,
-      "url": "https://www.news.cn/local/20261008/395086b6dde247a280305b6c8bedd760/c.html",
+      "url": "https://www.news.cn/local/20261009/6bfa6e2131de45efb70bf48e79016faf/c.html",
       "also_sources": [
         {
           "source": "新华网·时政联播",
-          "url": "https://www.news.cn/politics/20261008/eae28ee4bb144916b7913934b9219838/c.html"
+          "url": "https://www.news.cn/politics/20261009/8aa8eac63ee3434d9b17b54bb796aef9/c.html"
         }
       ]
+    },
+    {
+      "id": "7c8e607fc227",
+      "date": "2026-10-09",
+      "category": "经济发展",
+      "source": "新华网·时政",
+      "source_priority": 3,
+      "title": "法治护航 低空经济步入发展新阶段",
+      "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
+      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“经济发展”相关规范表述。",
+      "essay_material": "申论积累：高质量发展、扩大内需与现代化产业体系。可从背景、举措、意义三个角度整理。",
+      "score": 2,
+      "url": "https://www.news.cn/legal/20261009/343cf15d15c44fdcb6a17c43401fe080/c.html"
+    },
+    {
+      "id": "7daf9a4f952f",
+      "date": "2026-10-09",
+      "category": "经济发展",
+      "source": "新华网·时政联播",
+      "source_priority": 3,
+      "title": "何立峰会见欧盟委员会贸易和经济安全委员谢夫乔维奇",
+      "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
+      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“经济发展”相关规范表述。",
+      "essay_material": "申论积累：高质量发展、扩大内需与现代化产业体系。可从背景、举措、意义三个角度整理。",
+      "score": 2,
+      "url": "https://www.news.cn/politics/20261009/4fb4386ba0ac4c9f8ca21aa98711f329/c.html"
+    },
+    {
+      "id": "c5711f5da21b",
+      "date": "2026-10-08",
+      "category": "经济发展",
+      "source": "中国政府网·政策",
+      "source_priority": 4,
+      "title": "国务院办公厅关于发展体育赛事激发消费活力的意见",
+      "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
+      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“经济发展”相关规范表述。",
+      "essay_material": "申论积累：高质量发展、扩大内需与现代化产业体系。可从背景、举措、意义三个角度整理。",
+      "score": 5,
+      "url": "https://www.gov.cn/zhengce/content/202609/content_7082492.htm"
     },
     {
       "id": "c1fd70e35f46",
@@ -137,32 +237,6 @@
       "essay_material": "申论积累：科技创新、新质生产力与高质量发展。可从背景、举措、意义三个角度整理。",
       "score": 2,
       "url": "https://www.news.cn/politics/20261008/86f257d695274d2cba247bced81a65a8/c.html"
-    },
-    {
-      "id": "7fdf01cd44c5",
-      "date": "2026-10-08",
-      "category": "经济发展",
-      "source": "新华网·时政",
-      "source_priority": 3,
-      "title": "秀我中国丨古镇“入戏” 点燃夜游消费",
-      "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
-      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“经济发展”相关规范表述。",
-      "essay_material": "申论积累：高质量发展、扩大内需与现代化产业体系。可从背景、举措、意义三个角度整理。",
-      "score": 2,
-      "url": "https://www.news.cn/local/20261008/5e9dc9e77c634f3ab9f71daf941360fd/c.html"
-    },
-    {
-      "id": "cf768eb6d691",
-      "date": "2026-10-08",
-      "category": "经济发展",
-      "source": "新华网·时政联播",
-      "source_priority": 3,
-      "title": "“天工开物 链接全球——新余产业高质量发展对话”在江西新余举行",
-      "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
-      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“经济发展”相关规范表述。",
-      "essay_material": "申论积累：高质量发展、扩大内需与现代化产业体系。可从背景、举措、意义三个角度整理。",
-      "score": 2,
-      "url": "https://www.news.cn/politics/20261008/a80918a2db13473fb89803ee0564a0e7/c.html"
     },
     {
       "id": "1701b26ee0e5",
