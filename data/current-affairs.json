@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T02:20:06.880430+00:00",
+  "updated_at": "2026-10-11T01:53:30.283675+00:00",
   "sources": [
     "中国政府网·政策",
     "中国政府网·要闻",
@@ -9,20 +9,25 @@
   "source_stats": {
     "中国政府网·政策": 11,
     "中国政府网·要闻": 0,
-    "新华网·时政": 20,
+    "新华网·时政": 22,
     "新华网·时政联播": 6
   },
   "filter": "近14天 + 公考价值筛选 + 事件级去重",
   "daily_picks": {
+    "2026-10-11": [
+      "6967f90b2333"
+    ],
     "2026-10-10": [
-      "5ac5d918f9fd"
+      "f3748e150a79",
+      "3524fbae5fd9",
+      "9414373d04e3",
+      "5495319b3010",
+      "3aaff30c84ac"
     ],
     "2026-10-09": [
       "6b3732c467fc",
       "5931ab84a54f",
-      "7c8e607fc227",
-      "fa424bcaee76",
-      "7daf9a4f952f"
+      "fa424bcaee76"
     ],
     "2026-10-08": [
       "c5711f5da21b",
@@ -52,17 +57,114 @@
   },
   "items": [
     {
-      "id": "5ac5d918f9fd",
-      "date": "2026-10-10",
-      "category": "社会民生",
+      "id": "6967f90b2333",
+      "date": "2026-10-11",
+      "category": "政策法治",
       "source": "新华网·时政联播",
       "source_priority": 3,
-      "title": "彭丽媛向2026年联合国教科文组织女童和妇女教育奖颁奖仪式发表视频致辞",
+      "title": "新华时评｜以法治之力守护食品安全",
+      "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
+      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“政策法治”相关规范表述。",
+      "essay_material": "申论积累：依法行政、制度建设与治理现代化。可从背景、举措、意义三个角度整理。",
+      "score": 2,
+      "url": "https://www.news.cn/politics/20261011/1a7819439a2b4f058a88d0815bf7e0e6/c.html"
+    },
+    {
+      "id": "f3748e150a79",
+      "date": "2026-10-10",
+      "category": "时政要闻",
+      "source": "新华网·时政联播",
+      "source_priority": 3,
+      "title": "习近平总书记同卫生健康工作者的故事",
+      "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
+      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“时政要闻”相关规范表述。",
+      "essay_material": "申论积累：中国式现代化、国家治理与高质量发展。可从背景、举措、意义三个角度整理。",
+      "score": 4,
+      "url": "https://www.news.cn/politics/20261010/ab34b06dfec44025bb4a63ca26b92003/c.html",
+      "also_sources": [
+        {
+          "source": "新华网·时政联播",
+          "url": "https://www.news.cn/politics/20261010/103fd0e1d0ec411f8033baccac72ceec/c.html"
+        }
+      ]
+    },
+    {
+      "id": "3524fbae5fd9",
+      "date": "2026-10-10",
+      "category": "经济发展",
+      "source": "新华网·时政联播",
+      "source_priority": 3,
+      "title": "市场监管总局就食品安全法修订草案征求意见稿答记者问",
+      "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
+      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“经济发展”相关规范表述。",
+      "essay_material": "申论积累：高质量发展、扩大内需与现代化产业体系。可从背景、举措、意义三个角度整理。",
+      "score": 3,
+      "url": "https://www.news.cn/politics/20261010/a8d03ddc8ba541b493d38caedf2d1032/c.html"
+    },
+    {
+      "id": "9414373d04e3",
+      "date": "2026-10-10",
+      "category": "社会民生",
+      "source": "新华网·时政",
+      "source_priority": 3,
+      "title": "人力资源社会保障部：多措并举护航毕业生等青年就业",
       "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
       "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“社会民生”相关规范表述。",
       "essay_material": "申论积累：保障和改善民生、公共服务与社会治理。可从背景、举措、意义三个角度整理。",
       "score": 2,
-      "url": "https://www.news.cn/politics/20261010/33b949ff91374004b2ec9e6bf28470ad/c.html"
+      "url": "https://www.news.cn/politics/20261010/b805a2d8a84745fd81b49ee60c17c3ac/c.html"
+    },
+    {
+      "id": "5495319b3010",
+      "date": "2026-10-10",
+      "category": "科技创新",
+      "source": "新华网·时政",
+      "source_priority": 3,
+      "title": "我国将开展适应人工智能发展促就业行动",
+      "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
+      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“科技创新”相关规范表述。",
+      "essay_material": "申论积累：科技创新、新质生产力与高质量发展。可从背景、举措、意义三个角度整理。",
+      "score": 2,
+      "url": "https://www.news.cn/20261010/bbf32d5f70004ad280a419fa7855b320/c.html"
+    },
+    {
+      "id": "3aaff30c84ac",
+      "date": "2026-10-10",
+      "category": "社会民生",
+      "source": "新华网·时政",
+      "source_priority": 3,
+      "title": "前三季度全国城镇新增就业1052万人",
+      "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
+      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“社会民生”相关规范表述。",
+      "essay_material": "申论积累：保障和改善民生、公共服务与社会治理。可从背景、举措、意义三个角度整理。",
+      "score": 2,
+      "url": "https://www.news.cn/20261010/9904bb66dd234a5487c6f6e1fab74642/c.html"
+    },
+    {
+      "id": "1ec54e734328",
+      "date": "2026-10-10",
+      "category": "时政要闻",
+      "source": "新华网·时政联播",
+      "source_priority": 3,
+      "title": "专家学者共话以巡视利剑推动全面从严治党向纵深发展",
+      "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
+      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“时政要闻”相关规范表述。",
+      "essay_material": "申论积累：中国式现代化、国家治理与高质量发展。可从背景、举措、意义三个角度整理。",
+      "score": 2,
+      "url": "https://www.news.cn/politics/20261010/b51cff45d8004cd98c17d575f832e679/c.html"
+    },
+    {
+      "id": "c95438f92cf6",
+      "date": "2026-10-10",
+      "category": "时政要闻",
+      "source": "新华网·时政联播",
+      "source_priority": 3,
+      "title": "专家学者共话推动新时代侨联事业高质量发展",
+      "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
+      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“时政要闻”相关规范表述。",
+      "essay_material": "申论积累：中国式现代化、国家治理与高质量发展。可从背景、举措、意义三个角度整理。",
+      "score": 2,
+      "url": "https://www.news.cn/politics/20261010/9ce5d3498fd044e1b232914c5c065d6d/c.html"
     },
     {
       "id": "6b3732c467fc",
@@ -86,10 +188,6 @@
           "url": "https://www.news.cn/politics/20261009/df52fc1f84d845bf8047ef394bc6ea47/c.html"
         },
         {
-          "source": "新华网·时政联播",
-          "url": "https://www.news.cn/politics/20261009/9b017d6f3ade430cb9f123c509e83cc1/c.html"
-        },
-        {
           "source": "中国政府网·政策",
           "url": "https://www.gov.cn/202610/content_7082841.htm"
         },
@@ -103,14 +201,6 @@
         },
         {
           "source": "新华网·时政",
-          "url": "https://www.news.cn/politics/20261009/da45b50805474ddc871217373023d32d/c.html"
-        },
-        {
-          "source": "新华网·时政联播",
-          "url": "https://www.news.cn/politics/20261009/bc927827c7c04201a75a81ad7a29574d/c.html"
-        },
-        {
-          "source": "新华网·时政联播",
           "url": "https://www.news.cn/politics/20261009/da45b50805474ddc871217373023d32d/c.html"
         }
       ]
@@ -139,39 +229,7 @@
       "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“时政要闻”相关规范表述。",
       "essay_material": "申论积累：中国式现代化、国家治理与高质量发展。可从背景、举措、意义三个角度整理。",
       "score": 3,
-      "url": "https://www.news.cn/local/20261009/6bfa6e2131de45efb70bf48e79016faf/c.html",
-      "also_sources": [
-        {
-          "source": "新华网·时政联播",
-          "url": "https://www.news.cn/politics/20261009/8aa8eac63ee3434d9b17b54bb796aef9/c.html"
-        }
-      ]
-    },
-    {
-      "id": "7c8e607fc227",
-      "date": "2026-10-09",
-      "category": "经济发展",
-      "source": "新华网·时政",
-      "source_priority": 3,
-      "title": "法治护航 低空经济步入发展新阶段",
-      "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
-      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“经济发展”相关规范表述。",
-      "essay_material": "申论积累：高质量发展、扩大内需与现代化产业体系。可从背景、举措、意义三个角度整理。",
-      "score": 2,
-      "url": "https://www.news.cn/legal/20261009/343cf15d15c44fdcb6a17c43401fe080/c.html"
-    },
-    {
-      "id": "7daf9a4f952f",
-      "date": "2026-10-09",
-      "category": "经济发展",
-      "source": "新华网·时政联播",
-      "source_priority": 3,
-      "title": "何立峰会见欧盟委员会贸易和经济安全委员谢夫乔维奇",
-      "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
-      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“经济发展”相关规范表述。",
-      "essay_material": "申论积累：高质量发展、扩大内需与现代化产业体系。可从背景、举措、意义三个角度整理。",
-      "score": 2,
-      "url": "https://www.news.cn/politics/20261009/4fb4386ba0ac4c9f8ca21aa98711f329/c.html"
+      "url": "https://www.news.cn/local/20261009/6bfa6e2131de45efb70bf48e79016faf/c.html"
     },
     {
       "id": "c5711f5da21b",
