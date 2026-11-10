@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T02:39:24.469544+00:00",
+  "updated_at": "2026-11-10T04:37:27.389401+00:00",
   "sources": [
     "中国政府网·政策",
     "中国政府网·要闻",
@@ -10,25 +10,26 @@
     "中国政府网·政策": 14,
     "中国政府网·要闻": 0,
     "新华网·时政": 19,
-    "新华网·时政联播": 4
+    "新华网·时政联播": 3
   },
   "filter": "近14天 + 公考价值筛选 + 事件级去重",
   "daily_picks": {
+    "2026-11-10": [
+      "f6025694db3b",
+      "82c844ab39dc"
+    ],
     "2026-11-09": [
-      "8d8124fead77",
-      "386b1c65ca3a"
+      "c86b9a03dacf",
+      "24114b9f9a7a",
+      "3c85795f52a5"
     ],
     "2026-11-08": [
       "7cd9bbef2978",
       "7a563117e071",
-      "61fd052cf524",
-      "f6c244402cc8",
       "1f3440c1dfff"
     ],
     "2026-11-07": [
-      "c86b9a03dacf",
-      "9dec851c1a50",
-      "4cf101baa986"
+      "9dec851c1a50"
     ],
     "2026-11-06": [
       "bb9f67bd99f0"
@@ -48,7 +49,6 @@
     ],
     "2026-11-03": [
       "982f75ff7bc4",
-      "a8c79d85f5db",
       "ffb09adee508"
     ],
     "2026-11-02": [
@@ -68,37 +68,95 @@
       "daa9f527014b",
       "cf1c45fedab7",
       "402a3c0bb4d7"
-    ],
-    "2026-10-26": [
-      "2175552da49d"
     ]
   },
   "items": [
     {
-      "id": "8d8124fead77",
-      "date": "2026-11-09",
-      "category": "科技创新",
+      "id": "f6025694db3b",
+      "date": "2026-11-10",
+      "category": "经济发展",
       "source": "新华网·时政联播",
       "source_priority": 3,
-      "title": "创新药凭什么跑出加速度",
+      "title": "国家发展改革委：推进实现托育综合服务中心地市级全覆盖",
+      "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
+      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“经济发展”相关规范表述。",
+      "essay_material": "申论积累：高质量发展、扩大内需与现代化产业体系。可从背景、举措、意义三个角度整理。",
+      "score": 3,
+      "url": "https://www.news.cn/politics/20261110/2a339d429f284dc2bde658d990433c73/c.html",
+      "also_sources": [
+        {
+          "source": "新华网·时政联播",
+          "url": "https://www.news.cn/politics/20261110/c128f1bf100d42129d851dcaae4ebfa6/c.html"
+        }
+      ]
+    },
+    {
+      "id": "82c844ab39dc",
+      "date": "2026-11-10",
+      "category": "科技创新",
+      "source": "新华网·时政",
+      "source_priority": 3,
+      "title": "科技赋能+实景体验 多地启动消防宣传月活动",
       "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
       "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“科技创新”相关规范表述。",
       "essay_material": "申论积累：科技创新、新质生产力与高质量发展。可从背景、举措、意义三个角度整理。",
       "score": 2,
-      "url": "https://www.news.cn/politics/20261109/475172842fda4abbafa7c8bbd6b06a7c/c.html"
+      "url": "https://www.news.cn/politics/20261110/a4f47b0fa9ea41928f3bb5eb5197d77e/c.html",
+      "also_sources": [
+        {
+          "source": "新华网·时政",
+          "url": "https://www.news.cn/local/20261110/a3c5469d9ac24e0dbd4011f6d768bae1/c.html"
+        },
+        {
+          "source": "新华网·时政联播",
+          "url": "https://www.news.cn/politics/20261110/a4f47b0fa9ea41928f3bb5eb5197d77e/c.html"
+        }
+      ]
     },
     {
-      "id": "386b1c65ca3a",
+      "id": "c86b9a03dacf",
       "date": "2026-11-09",
-      "category": "生态文明",
-      "source": "新华网·时政联播",
-      "source_priority": 3,
-      "title": "开屏广告太添堵，怎么治？——“清朗互联网广告生态”",
+      "category": "时政要闻",
+      "source": "中国政府网·政策",
+      "source_priority": 4,
+      "title": "中共中央发出通知 部署党的二十一大代表选举工作",
       "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
-      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“生态文明”相关规范表述。",
-      "essay_material": "申论积累：绿色发展与生态文明建设。可从背景、举措、意义三个角度整理。",
+      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“时政要闻”相关规范表述。",
+      "essay_material": "申论积累：中国式现代化、国家治理与高质量发展。可从背景、举措、意义三个角度整理。",
+      "score": 4,
+      "url": "https://www.gov.cn/202611/content_7085529.htm"
+    },
+    {
+      "id": "24114b9f9a7a",
+      "date": "2026-11-09",
+      "category": "政策法治",
+      "source": "中国政府网·政策",
+      "source_priority": 4,
+      "title": "中医药传统知识保护条例",
+      "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
+      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“政策法治”相关规范表述。",
+      "essay_material": "申论积累：依法行政、制度建设与治理现代化。可从背景、举措、意义三个角度整理。",
+      "score": 3,
+      "url": "https://www.gov.cn/zhengce/content/202611/content_7085591.htm"
+    },
+    {
+      "id": "3c85795f52a5",
+      "date": "2026-11-09",
+      "category": "三农乡村",
+      "source": "新华网·时政",
+      "source_priority": 3,
+      "title": "中国农业银行河北省分行原副巡视员郑学峰接受纪律审查和监察调查",
+      "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
+      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“三农乡村”相关规范表述。",
+      "essay_material": "申论积累：乡村全面振兴、农业农村现代化与为农服务。可从背景、举措、意义三个角度整理。",
       "score": 2,
-      "url": "https://www.news.cn/politics/20261109/b9ae242ecee04d878b70870c4d19e4f7/c.html"
+      "url": "https://www.news.cn/legal/20261109/717fdc1f7b51486db6e2b45789995cbd/c.html",
+      "also_sources": [
+        {
+          "source": "新华网·时政",
+          "url": "https://www.news.cn/legal/20261109/a877bf13ebd24cd699770c34c8925d67/c.html"
+        }
+      ]
     },
     {
       "id": "7cd9bbef2978",
@@ -137,52 +195,7 @@
       "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“生态文明”相关规范表述。",
       "essay_material": "申论积累：绿色发展与生态文明建设。可从背景、举措、意义三个角度整理。",
       "score": 2,
-      "url": "https://www.news.cn/politics/20261108/fac4f76052224c63b728559e69ed606f/c.html",
-      "also_sources": [
-        {
-          "source": "新华网·时政联播",
-          "url": "https://www.news.cn/politics/20261108/fac4f76052224c63b728559e69ed606f/c.html"
-        }
-      ]
-    },
-    {
-      "id": "61fd052cf524",
-      "date": "2026-11-08",
-      "category": "社会民生",
-      "source": "新华网·时政",
-      "source_priority": 3,
-      "title": "从方寸空间到万家烟火：城市更新的民生答卷",
-      "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
-      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“社会民生”相关规范表述。",
-      "essay_material": "申论积累：保障和改善民生、公共服务与社会治理。可从背景、举措、意义三个角度整理。",
-      "score": 2,
-      "url": "https://www.news.cn/local/20261108/7fbf4929de3543bba9ceae97a6ac9d87/c.html"
-    },
-    {
-      "id": "f6c244402cc8",
-      "date": "2026-11-08",
-      "category": "科技创新",
-      "source": "新华网·时政联播",
-      "source_priority": 3,
-      "title": "新跃升、新变革，“人工智能+媒体”这样发展",
-      "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
-      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“科技创新”相关规范表述。",
-      "essay_material": "申论积累：科技创新、新质生产力与高质量发展。可从背景、举措、意义三个角度整理。",
-      "score": 2,
-      "url": "https://www.news.cn/politics/20261108/0905d63497904413b7ea2ce5e48ad022/c.html"
-    },
-    {
-      "id": "c86b9a03dacf",
-      "date": "2026-11-07",
-      "category": "时政要闻",
-      "source": "中国政府网·政策",
-      "source_priority": 4,
-      "title": "中共中央发出通知 部署党的二十一大代表选举工作",
-      "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
-      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“时政要闻”相关规范表述。",
-      "essay_material": "申论积累：中国式现代化、国家治理与高质量发展。可从背景、举措、意义三个角度整理。",
-      "score": 4,
-      "url": "https://www.gov.cn/202611/content_7085529.htm"
+      "url": "https://www.news.cn/politics/20261108/fac4f76052224c63b728559e69ed606f/c.html"
     },
     {
       "id": "9dec851c1a50",
@@ -196,19 +209,6 @@
       "essay_material": "申论积累：中国式现代化、国家治理与高质量发展。可从背景、举措、意义三个角度整理。",
       "score": 4,
       "url": "https://www.gov.cn/zhengce/content/202611/content_7085109.htm"
-    },
-    {
-      "id": "4cf101baa986",
-      "date": "2026-11-07",
-      "category": "时政要闻",
-      "source": "新华网·时政",
-      "source_priority": 3,
-      "title": "原青海省旅游发展委员会党组书记、主任徐浩接受纪律审查和监察调查",
-      "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
-      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“时政要闻”相关规范表述。",
-      "essay_material": "申论积累：中国式现代化、国家治理与高质量发展。可从背景、举措、意义三个角度整理。",
-      "score": 2,
-      "url": "https://www.news.cn/legal/20261107/94e2693caafc4253a5ccbf2594584949/c.html"
     },
     {
       "id": "bb9f67bd99f0",
@@ -380,19 +380,6 @@
       "url": "http://www.news.cn/politics/20261103/031ab1987235455f874687273b5a05f4/c.html"
     },
     {
-      "id": "a8c79d85f5db",
-      "date": "2026-11-03",
-      "category": "生态文明",
-      "source": "新华网·时政",
-      "source_priority": 3,
-      "title": "2026全球熊猫伙伴大会聚焦中国绿色发展之路",
-      "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
-      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“生态文明”相关规范表述。",
-      "essay_material": "申论积累：绿色发展与生态文明建设。可从背景、举措、意义三个角度整理。",
-      "score": 2,
-      "url": "http://www.news.cn/politics/20261103/8a6f6c875b7645e59b328673216573cb/c.html"
-    },
-    {
       "id": "55f7923b47b5",
       "date": "2026-11-02",
       "category": "时政要闻",
@@ -494,13 +481,7 @@
       "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“三农乡村”相关规范表述。",
       "essay_material": "申论积累：乡村全面振兴、农业农村现代化与为农服务。可从背景、举措、意义三个角度整理。",
       "score": 3,
-      "url": "https://www.gov.cn/202610/content_7084405.htm",
-      "also_sources": [
-        {
-          "source": "新华网·时政",
-          "url": "https://www.news.cn/politics/20261028/d9786e85c02a4dfca653d37fed77a84a/c.html"
-        }
-      ]
+      "url": "https://www.gov.cn/202610/content_7084405.htm"
     },
     {
       "id": "cf1c45fedab7",
@@ -527,19 +508,6 @@
       "essay_material": "申论积累：科技创新、新质生产力与高质量发展。可从背景、举措、意义三个角度整理。",
       "score": 3,
       "url": "https://www.news.cn/politics/20261028/6d83cdb65fb947c3a94f0c36c70fb144/c.html"
-    },
-    {
-      "id": "2175552da49d",
-      "date": "2026-10-26",
-      "category": "科技创新",
-      "source": "中国政府网·政策",
-      "source_priority": 4,
-      "title": "国办关于适应人工智能技术发展助力构建就业友好型发展方式的意见",
-      "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
-      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“科技创新”相关规范表述。",
-      "essay_material": "申论积累：科技创新、新质生产力与高质量发展。可从背景、举措、意义三个角度整理。",
-      "score": 3,
-      "url": "https://www.gov.cn/zhengce/content/202610/content_7084107.htm"
     }
   ]
 }
