@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T04:37:27.389401+00:00",
+  "updated_at": "2026-11-11T02:46:18.450855+00:00",
   "sources": [
     "中国政府网·政策",
     "中国政府网·要闻",
@@ -9,19 +9,24 @@
   "source_stats": {
     "中国政府网·政策": 14,
     "中国政府网·要闻": 0,
-    "新华网·时政": 19,
-    "新华网·时政联播": 3
+    "新华网·时政": 18,
+    "新华网·时政联播": 1
   },
   "filter": "近14天 + 公考价值筛选 + 事件级去重",
   "daily_picks": {
+    "2026-11-11": [
+      "9806af8de478",
+      "338848f34e3d"
+    ],
     "2026-11-10": [
-      "f6025694db3b",
+      "24114b9f9a7a",
+      "8d0e3c9be7f8",
+      "205379b8c766",
       "82c844ab39dc"
     ],
     "2026-11-09": [
       "c86b9a03dacf",
-      "24114b9f9a7a",
-      "3c85795f52a5"
+      "012b6f38aa65"
     ],
     "2026-11-08": [
       "7cd9bbef2978",
@@ -65,30 +70,61 @@
       "afb01b36ce66"
     ],
     "2026-10-28": [
-      "daa9f527014b",
-      "cf1c45fedab7",
-      "402a3c0bb4d7"
+      "daa9f527014b"
     ]
   },
   "items": [
     {
-      "id": "f6025694db3b",
-      "date": "2026-11-10",
-      "category": "经济发展",
+      "id": "9806af8de478",
+      "date": "2026-11-11",
+      "category": "国际时政",
+      "source": "新华网·时政",
+      "source_priority": 3,
+      "title": "“一带一路”国际智库合作委员会2026年理事会会议举行",
+      "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
+      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“国际时政”相关规范表述。",
+      "essay_material": "申论积累：开放合作、全球治理与中国特色大国外交。可从背景、举措、意义三个角度整理。",
+      "score": 2,
+      "url": "https://www.news.cn/politics/20261111/5c617f34497f4429a390675c175dc00f/c.html"
+    },
+    {
+      "id": "338848f34e3d",
+      "date": "2026-11-11",
+      "category": "社会民生",
       "source": "新华网·时政联播",
       "source_priority": 3,
-      "title": "国家发展改革委：推进实现托育综合服务中心地市级全覆盖",
+      "title": "当养老机构有了“云管家”",
       "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
-      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“经济发展”相关规范表述。",
-      "essay_material": "申论积累：高质量发展、扩大内需与现代化产业体系。可从背景、举措、意义三个角度整理。",
+      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“社会民生”相关规范表述。",
+      "essay_material": "申论积累：保障和改善民生、公共服务与社会治理。可从背景、举措、意义三个角度整理。",
+      "score": 2,
+      "url": "https://www.news.cn/politics/20261111/6fa7c63f05ad40dca680a8b7a6e4faf2/c.html"
+    },
+    {
+      "id": "24114b9f9a7a",
+      "date": "2026-11-10",
+      "category": "政策法治",
+      "source": "中国政府网·政策",
+      "source_priority": 4,
+      "title": "中医药传统知识保护条例",
+      "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
+      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“政策法治”相关规范表述。",
+      "essay_material": "申论积累：依法行政、制度建设与治理现代化。可从背景、举措、意义三个角度整理。",
       "score": 3,
-      "url": "https://www.news.cn/politics/20261110/2a339d429f284dc2bde658d990433c73/c.html",
-      "also_sources": [
-        {
-          "source": "新华网·时政联播",
-          "url": "https://www.news.cn/politics/20261110/c128f1bf100d42129d851dcaae4ebfa6/c.html"
-        }
-      ]
+      "url": "https://www.gov.cn/zhengce/content/202611/content_7085591.htm"
+    },
+    {
+      "id": "8d0e3c9be7f8",
+      "date": "2026-11-10",
+      "category": "科技创新",
+      "source": "新华网·时政",
+      "source_priority": 3,
+      "title": "中国记协举办新闻茶座 聚焦党的理论创新",
+      "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
+      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“科技创新”相关规范表述。",
+      "essay_material": "申论积累：科技创新、新质生产力与高质量发展。可从背景、举措、意义三个角度整理。",
+      "score": 2,
+      "url": "https://www.news.cn/politics/20261110/fcdb4fc973e24280b139c7281531995d/c.html"
     },
     {
       "id": "82c844ab39dc",
@@ -101,17 +137,20 @@
       "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“科技创新”相关规范表述。",
       "essay_material": "申论积累：科技创新、新质生产力与高质量发展。可从背景、举措、意义三个角度整理。",
       "score": 2,
-      "url": "https://www.news.cn/politics/20261110/a4f47b0fa9ea41928f3bb5eb5197d77e/c.html",
-      "also_sources": [
-        {
-          "source": "新华网·时政",
-          "url": "https://www.news.cn/local/20261110/a3c5469d9ac24e0dbd4011f6d768bae1/c.html"
-        },
-        {
-          "source": "新华网·时政联播",
-          "url": "https://www.news.cn/politics/20261110/a4f47b0fa9ea41928f3bb5eb5197d77e/c.html"
-        }
-      ]
+      "url": "https://www.news.cn/politics/20261110/a4f47b0fa9ea41928f3bb5eb5197d77e/c.html"
+    },
+    {
+      "id": "205379b8c766",
+      "date": "2026-11-10",
+      "category": "生态文明",
+      "source": "新华网·时政",
+      "source_priority": 3,
+      "title": "厦门海洋生态修复行动持续呵护生物多样性",
+      "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
+      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“生态文明”相关规范表述。",
+      "essay_material": "申论积累：绿色发展与生态文明建设。可从背景、举措、意义三个角度整理。",
+      "score": 2,
+      "url": "https://www.news.cn/local/20261110/f6006cb43f634a0da3b475bb86fcf38b/c.html"
     },
     {
       "id": "c86b9a03dacf",
@@ -127,36 +166,17 @@
       "url": "https://www.gov.cn/202611/content_7085529.htm"
     },
     {
-      "id": "24114b9f9a7a",
+      "id": "012b6f38aa65",
       "date": "2026-11-09",
       "category": "政策法治",
       "source": "中国政府网·政策",
       "source_priority": 4,
-      "title": "中医药传统知识保护条例",
+      "title": "今年以来，在充分发挥各项存量政策效能、及时谋划出台务实管用的增量政策背景下，我国物价整体呈现温和上涨态势。",
       "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
       "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“政策法治”相关规范表述。",
       "essay_material": "申论积累：依法行政、制度建设与治理现代化。可从背景、举措、意义三个角度整理。",
-      "score": 3,
-      "url": "https://www.gov.cn/zhengce/content/202611/content_7085591.htm"
-    },
-    {
-      "id": "3c85795f52a5",
-      "date": "2026-11-09",
-      "category": "三农乡村",
-      "source": "新华网·时政",
-      "source_priority": 3,
-      "title": "中国农业银行河北省分行原副巡视员郑学峰接受纪律审查和监察调查",
-      "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
-      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“三农乡村”相关规范表述。",
-      "essay_material": "申论积累：乡村全面振兴、农业农村现代化与为农服务。可从背景、举措、意义三个角度整理。",
       "score": 2,
-      "url": "https://www.news.cn/legal/20261109/717fdc1f7b51486db6e2b45789995cbd/c.html",
-      "also_sources": [
-        {
-          "source": "新华网·时政",
-          "url": "https://www.news.cn/legal/20261109/a877bf13ebd24cd699770c34c8925d67/c.html"
-        }
-      ]
+      "url": "https://www.gov.cn/202611/content_7085585.htm"
     },
     {
       "id": "7cd9bbef2978",
@@ -482,32 +502,6 @@
       "essay_material": "申论积累：乡村全面振兴、农业农村现代化与为农服务。可从背景、举措、意义三个角度整理。",
       "score": 3,
       "url": "https://www.gov.cn/202610/content_7084405.htm"
-    },
-    {
-      "id": "cf1c45fedab7",
-      "date": "2026-10-28",
-      "category": "政策法治",
-      "source": "中国政府网·政策",
-      "source_priority": 4,
-      "title": "中央编办、司法部负责人就《事业单位登记管理条例》答记者问",
-      "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
-      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“政策法治”相关规范表述。",
-      "essay_material": "申论积累：依法行政、制度建设与治理现代化。可从背景、举措、意义三个角度整理。",
-      "score": 3,
-      "url": "https://www.gov.cn/202610/content_7084292.htm"
-    },
-    {
-      "id": "402a3c0bb4d7",
-      "date": "2026-10-28",
-      "category": "科技创新",
-      "source": "新华网·时政",
-      "source_priority": 3,
-      "title": "向“新”而行 以“质”争先——从“十五五”专项规划看新质生产力发展前景",
-      "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
-      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“科技创新”相关规范表述。",
-      "essay_material": "申论积累：科技创新、新质生产力与高质量发展。可从背景、举措、意义三个角度整理。",
-      "score": 3,
-      "url": "https://www.news.cn/politics/20261028/6d83cdb65fb947c3a94f0c36c70fb144/c.html"
     }
   ]
 }
