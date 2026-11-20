@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T04:11:38.338317+00:00",
+  "updated_at": "2026-11-20T03:58:13.337457+00:00",
   "sources": [
     "中国政府网·政策",
     "中国政府网·要闻",
@@ -7,19 +7,22 @@
     "新华网·时政联播"
   ],
   "source_stats": {
-    "中国政府网·政策": 14,
+    "中国政府网·政策": 11,
     "中国政府网·要闻": 0,
-    "新华网·时政": 17,
-    "新华网·时政联播": 7
+    "新华网·时政": 18,
+    "新华网·时政联播": 4
   },
   "filter": "近14天 + 公考价值筛选 + 事件级去重",
   "daily_picks": {
+    "2026-11-20": [
+      "edad6997a999",
+      "3d491515f697"
+    ],
     "2026-11-19": [
-      "424aea478410",
       "6d5567562328",
+      "691e98d66577",
       "9feb2fef142a",
-      "902a87ebded4",
-      "15b1034fecc2"
+      "c772698bf510"
     ],
     "2026-11-18": [
       "241d45fb2c3b",
@@ -29,8 +32,7 @@
       "f14cb0eaf0bc",
       "a01bdf26969d",
       "69a14d5996a4",
-      "06560131ed19",
-      "f6f45156723e"
+      "06560131ed19"
     ],
     "2026-11-16": [
       "e2216d72d34b",
@@ -55,53 +57,55 @@
     ],
     "2026-11-10": [
       "24114b9f9a7a",
-      "8d0e3c9be7f8",
-      "82c844ab39dc"
+      "8d0e3c9be7f8"
     ],
     "2026-11-09": [
       "c86b9a03dacf"
     ],
     "2026-11-07": [
       "9dec851c1a50"
-    ],
-    "2026-11-05": [
-      "6b6043b9033e",
-      "3c8779b58226",
-      "387c755f5ad4"
     ]
   },
   "items": [
     {
-      "id": "424aea478410",
-      "date": "2026-11-19",
+      "id": "edad6997a999",
+      "date": "2026-11-20",
       "category": "时政要闻",
       "source": "新华网·时政联播",
       "source_priority": 3,
-      "title": "习近平对老龄工作作出重要指示",
+      "title": "新华社快讯：习近平会见泰国总理阿努廷",
       "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
       "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“时政要闻”相关规范表述。",
       "essay_material": "申论积累：中国式现代化、国家治理与高质量发展。可从背景、举措、意义三个角度整理。",
       "score": 4,
-      "url": "https://www.news.cn/politics/20261119/c06073d4a77740cebbb8ed2505542d03/c.html"
-    },
-    {
-      "id": "15b1034fecc2",
-      "date": "2026-11-19",
-      "category": "时政要闻",
-      "source": "新华网·时政联播",
-      "source_priority": 3,
-      "title": "习近平主持亚太经合组织第三十三次领导人非正式会议并发表重要讲话",
-      "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
-      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“时政要闻”相关规范表述。",
-      "essay_material": "申论积累：中国式现代化、国家治理与高质量发展。可从背景、举措、意义三个角度整理。",
-      "score": 4,
-      "url": "https://www.news.cn/politics/20261119/668e42af6ccf4dcfb91b629a5e9bee8e/c.html",
+      "url": "https://www.news.cn/politics/20261120/289c428d8c024064b99b4e7eb8164834/c.html",
       "also_sources": [
         {
           "source": "新华网·时政联播",
-          "url": "https://www.news.cn/politics/20261119/c3e730c5b40b4a10b49cb584acd20acf/c.html"
+          "url": "https://www.news.cn/politics/20261120/bd0e82b9f0c944fe9c3ee3d5de4e6ea8/c.html"
+        },
+        {
+          "source": "新华网·时政联播",
+          "url": "https://www.news.cn/politics/20261120/0bbafd59c35247d28d3a7b221b34b50e/c.html"
+        },
+        {
+          "source": "新华网·时政联播",
+          "url": "https://www.news.cn/politics/20261120/5a36b70f26cb4f349b67ae638250e393/c.html"
         }
       ]
+    },
+    {
+      "id": "3d491515f697",
+      "date": "2026-11-20",
+      "category": "时政要闻",
+      "source": "新华网·时政",
+      "source_priority": 3,
+      "title": "冷空气影响趋于结束 全国大部降水缩减22日后南方降水将发展增多",
+      "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
+      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“时政要闻”相关规范表述。",
+      "essay_material": "申论积累：中国式现代化、国家治理与高质量发展。可从背景、举措、意义三个角度整理。",
+      "score": 2,
+      "url": "https://www.news.cn/politics/20261120/46ea886f8d7348a990ace72c895f99ce/c.html"
     },
     {
       "id": "6d5567562328",
@@ -117,6 +121,19 @@
       "url": "https://www.news.cn/20261119/e13d69cbc4de450a885d7abbea95813a/c.html"
     },
     {
+      "id": "691e98d66577",
+      "date": "2026-11-19",
+      "category": "生态文明",
+      "source": "新华网·时政",
+      "source_priority": 3,
+      "title": "聚焦互鉴合作 2026热带雨林生态伙伴大会在海口开幕",
+      "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
+      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“生态文明”相关规范表述。",
+      "essay_material": "申论积累：绿色发展与生态文明建设。可从背景、举措、意义三个角度整理。",
+      "score": 2,
+      "url": "https://www.news.cn/politics/20261119/b9ab6d0425f743dd8c09621e81c55600/c.html"
+    },
+    {
       "id": "9feb2fef142a",
       "date": "2026-11-19",
       "category": "科技创新",
@@ -127,52 +144,20 @@
       "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“科技创新”相关规范表述。",
       "essay_material": "申论积累：科技创新、新质生产力与高质量发展。可从背景、举措、意义三个角度整理。",
       "score": 2,
-      "url": "https://www.news.cn/politics/20261119/00d3c64540f74a28bdee59542d0ce0f3/c.html",
-      "also_sources": [
-        {
-          "source": "新华网·时政联播",
-          "url": "https://www.news.cn/politics/20261119/00d3c64540f74a28bdee59542d0ce0f3/c.html"
-        }
-      ]
+      "url": "https://www.news.cn/politics/20261119/00d3c64540f74a28bdee59542d0ce0f3/c.html"
     },
     {
-      "id": "8eb817d67472",
+      "id": "c772698bf510",
       "date": "2026-11-19",
-      "category": "经济发展",
-      "source": "新华网·时政联播",
+      "category": "政策法治",
+      "source": "新华网·时政",
       "source_priority": 3,
-      "title": "江苏邳州：物流“先手棋”激活县域经济“强引擎”",
+      "title": "第八届中国—东盟法治论坛在重庆举行",
       "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
-      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“经济发展”相关规范表述。",
-      "essay_material": "申论积累：高质量发展、扩大内需与现代化产业体系。可从背景、举措、意义三个角度整理。",
+      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“政策法治”相关规范表述。",
+      "essay_material": "申论积累：依法行政、制度建设与治理现代化。可从背景、举措、意义三个角度整理。",
       "score": 2,
-      "url": "https://www.news.cn/politics/20261119/de73509045a342a3ab9924137ce1d7d4/c.html"
-    },
-    {
-      "id": "902a87ebded4",
-      "date": "2026-11-19",
-      "category": "社会民生",
-      "source": "新华网·时政联播",
-      "source_priority": 3,
-      "title": "杭州余杭：让“养老”变“享老”",
-      "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
-      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“社会民生”相关规范表述。",
-      "essay_material": "申论积累：保障和改善民生、公共服务与社会治理。可从背景、举措、意义三个角度整理。",
-      "score": 2,
-      "url": "https://www.news.cn/politics/20261119/bc3107628f2b4a40aaee29ae150cef45/c.html"
-    },
-    {
-      "id": "518d4aa8d4d7",
-      "date": "2026-11-19",
-      "category": "科技创新",
-      "source": "新华网·时政联播",
-      "source_priority": 3,
-      "title": "南北方多地气温将陆续触底创新低 明起中东部进入降水间歇期",
-      "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
-      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“科技创新”相关规范表述。",
-      "essay_material": "申论积累：科技创新、新质生产力与高质量发展。可从背景、举措、意义三个角度整理。",
-      "score": 2,
-      "url": "https://www.news.cn/politics/20261119/b950d025eb1a4340ac7514b6d4aaed1b/c.html"
+      "url": "https://www.news.cn/legal/20261119/3e48d280250e433f89d16f5369439cd1/c.html"
     },
     {
       "id": "241d45fb2c3b",
@@ -251,19 +236,6 @@
       "essay_material": "申论积累：绿色发展与生态文明建设。可从背景、举措、意义三个角度整理。",
       "score": 2,
       "url": "https://www.news.cn/politics/20261117/73559e942d3b4a47a0bc07ab094dd9bf/c.html"
-    },
-    {
-      "id": "f6f45156723e",
-      "date": "2026-11-17",
-      "category": "生态文明",
-      "source": "新华网·时政",
-      "source_priority": 3,
-      "title": "北京警方以点串链加强生态警务机制建设",
-      "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
-      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“生态文明”相关规范表述。",
-      "essay_material": "申论积累：绿色发展与生态文明建设。可从背景、举措、意义三个角度整理。",
-      "score": 2,
-      "url": "https://www.news.cn/legal/20261117/83b092c65651453e9a96236204ac79f9/c.html"
     },
     {
       "id": "e2216d72d34b",
@@ -467,19 +439,6 @@
       "url": "https://www.news.cn/politics/20261110/fcdb4fc973e24280b139c7281531995d/c.html"
     },
     {
-      "id": "82c844ab39dc",
-      "date": "2026-11-10",
-      "category": "科技创新",
-      "source": "新华网·时政",
-      "source_priority": 3,
-      "title": "科技赋能+实景体验 多地启动消防宣传月活动",
-      "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
-      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“科技创新”相关规范表述。",
-      "essay_material": "申论积累：科技创新、新质生产力与高质量发展。可从背景、举措、意义三个角度整理。",
-      "score": 2,
-      "url": "https://www.news.cn/politics/20261110/a4f47b0fa9ea41928f3bb5eb5197d77e/c.html"
-    },
-    {
       "id": "c86b9a03dacf",
       "date": "2026-11-09",
       "category": "时政要闻",
@@ -504,45 +463,6 @@
       "essay_material": "申论积累：中国式现代化、国家治理与高质量发展。可从背景、举措、意义三个角度整理。",
       "score": 4,
       "url": "https://www.gov.cn/zhengce/content/202611/content_7085109.htm"
-    },
-    {
-      "id": "6b6043b9033e",
-      "date": "2026-11-05",
-      "category": "时政要闻",
-      "source": "中国政府网·政策",
-      "source_priority": 4,
-      "title": "国务院办公厅关于2027年部分节假日安排的通知",
-      "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
-      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“时政要闻”相关规范表述。",
-      "essay_material": "申论积累：中国式现代化、国家治理与高质量发展。可从背景、举措、意义三个角度整理。",
-      "score": 4,
-      "url": "https://www.gov.cn/zhengce/content/202611/content_7085101.htm"
-    },
-    {
-      "id": "3c8779b58226",
-      "date": "2026-11-05",
-      "category": "时政要闻",
-      "source": "中国政府网·政策",
-      "source_priority": 4,
-      "title": "国务院关于修改和废止部分行政法规的决定",
-      "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
-      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“时政要闻”相关规范表述。",
-      "essay_material": "申论积累：中国式现代化、国家治理与高质量发展。可从背景、举措、意义三个角度整理。",
-      "score": 4,
-      "url": "https://www.gov.cn/zhengce/content/202611/content_7085098.htm"
-    },
-    {
-      "id": "387c755f5ad4",
-      "date": "2026-11-05",
-      "category": "时政要闻",
-      "source": "中国政府网·政策",
-      "source_priority": 4,
-      "title": "中共中央关于持之以恒推进全面从严治党若干重大问题的决定",
-      "summary": "权威来源近期发布。建议结合原文核对政策表述、重要数字和发布主体。",
-      "exam_point": "行测关注：发布主体、时间、制度名称、核心举措、重要数字，以及“时政要闻”相关规范表述。",
-      "essay_material": "申论积累：中国式现代化、国家治理与高质量发展。可从背景、举措、意义三个角度整理。",
-      "score": 4,
-      "url": "https://www.gov.cn/202611/content_7084690.htm"
     }
   ]
 }
